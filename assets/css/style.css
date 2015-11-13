@@ -8257,14 +8257,6 @@ nav .navbar-nav li a {
       display: block;
       text-align: center; } }
 
-.content.nieuws .content-wrapper {
-  padding-left: 60px;
-  padding-right: 60px; }
-  @media screen and (max-width: 767px) {
-    .content.nieuws .content-wrapper {
-      padding-left: 0px;
-      padding-right: 0px; } }
-
 .share {
   margin-top: 30px;
   margin-bottom: 30px;
