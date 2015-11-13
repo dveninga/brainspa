@@ -1,0 +1,13 @@
+{% assign plaats = include.plaats %}
+<ul class="list-unstyled adres">
+{% for places in site.data.locaties %}
+{% if places.place == plaats %}
+{% for place in places.items %}
+<li>{{place.title}}</li>
+{% if place.mail %}
+<li><a href="mailto:{{place.mial}}" target="_blank">{{place.mail}}</a></li>
+{% endif %}
+{% endfor %}
+{% endif %}
+{% endfor %}
+</ul>

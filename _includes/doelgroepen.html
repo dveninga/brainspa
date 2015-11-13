@@ -1,0 +1,16 @@
+<div class="row doelgroepen">{% for post in site.tags['onze-aanpak'] %}
+  <div class="col-sm-4">
+    <div ontouchstart="this.classList.toggle('hover');" class="flipbox-container">
+      <div class="flipper">
+        <div class="flipbox flipbox-front"><i class="fa fa-{{post.icon}}"></i>
+          <h2>{{post.title}}</h2>
+        </div>
+        <div class="flipbox flipbox-back">
+          <h2>{{post.title}}</h2>
+          <p class="flipbox-text">{{post.content | remove: '<p>' | remove: '</p>'}}</p>
+          <p><a href="{{post.link}}" class="btn btn-sm btn-primary">lees meer</a></p>
+        </div>
+      </div>
+    </div>
+  </div>{% endfor %}
+</div>

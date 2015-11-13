@@ -1,0 +1,69 @@
+html
+  position: relative
+  min-height: 100%
+
+body
+  background-color: $body-bg
+  font:
+    family: "Raleway", sans-serif
+    size: 14px
+    weight: 400
+  color: $text-color
+  line-height: 28px
+  -webkit-font-smoothing: antialiased
+  height: 100%
+  position: relative
+  padding-top: 86px
+  @media screen and (max-width: $screen-xs-max)
+    padding-top: 57px
+
+.btn-primary
+  background-color: $accent
+  +transition(all 300ms ease-in-out)
+  font-weight: 600
+
+  &:hover
+    background-color: white
+    color: $accent
+    border-color: $accent
+
+h1, h2, h3, h4
+  line-height: 1.1
+
+.pageTitle
+  margin-top: 5px
+  font:
+    size: 2em
+    weight: 500
+
+
+section
+  .fa
+    font-size: 2.5em
+    margin-bottom: 30px
+.content
+  padding: 15px 30px
+  @media screen and (max-width: $screen-xs-max)
+    padding: 15px
+
+  ul
+    padding-left: 20px
+  ul.adres
+    padding-left: 0px
+    @media screen and (max-width: $screen-xs-max)
+      text-align: center
+
+  h2
+    font-size: 19px
+    margin-top: 20px
+    margin-bottom: 20px
+  h3
+    font-size: 16px
+
+.lead
+  line-height: 28px
+  font-size: 16px
+  font-weight: 500
+section
+  padding-top: 60px
+  padding-bottom: 60px

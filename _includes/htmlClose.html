@@ -1,0 +1,16 @@
+		{% if site.dev == 'y' %}
+		<!-- dev -->
+		<script src="{{ "/assets/js/jquery-1.11.3.min.js" | prepend: site.baseurl }}"></script>
+		<script src="{{ "/assets/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+		<script src="{{ "/assets/js/moment-with-langs.min.js" | prepend: site.baseurl }}"></script>
+		<script src="{{ "/assets/js/jquery.validate.min.js" | prepend: site.baseurl }}"></script>
+		<script src="{{ "/assets/js/jquery.sharrre.min.js" | prepend: site.baseurl }}"></script>
+		<script src="{{ "/assets/js/messages_nl.js" | prepend: site.baseurl }}"></script>
+		<script src="{{ "/assets/js/firebase.js" | prepend: site.baseurl }}"></script>
+		<script src="{{ "/assets/js/formulieren.js" | prepend: site.baseurl }}"></script>
+		<script src="{{ "/assets/js/functions.js" | prepend: site.baseurl }}"></script>
+		{% else %}
+		<script src="{{ "/build/js/scripts.min.js" | prepend: site.baseurl }}"></script>
+		{% endif %}
+	</body>
+</html>

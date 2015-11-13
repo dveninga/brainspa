@@ -1,0 +1,48 @@
+---
+layout: default
+---
+{% include breadcrumb.html %}
+{% if page.banner %}
+<section class="container-fluid banner" style="background-image: url('/assets/img/banners/{{page.banner}}')"></section>
+{% endif %}
+<section class="container-fluid">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 content">
+				<h1 class="pageTitle">{{page.title}}</h1>
+				{{ content }}
+			</div>
+		</div>
+		{% for places in site.data.locaties %}
+		{% assign locatie = places.place %}
+		{% for place in places.items %}
+		{% if place.maps %}
+		<div class="row">
+			<div class="col-sm-6 content maps">
+				<div class="embed-responsive embed-responsive-4by3">
+					<iframe src="{{place.maps}}" frameborder="0" style="border:0" class="embed-responsive-item"></iframe>
+				</div>
+			</div>
+			<div class="col-sm-6 content">
+				{% include adres.html plaats=places.place %}
+			</div>
+		</div>
+		{% endif %}
+		{% endfor %}
+		{% endfor %}
+	</div>
+</section>
+<section class="container-fluid themas">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 text-center">
+				<ul class="list-inline">
+					{% for contact in site.data.settings.contact-overig %}
+					<li>{{contact.title}}</li>
+
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>

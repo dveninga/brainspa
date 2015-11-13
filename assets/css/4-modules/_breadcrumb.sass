@@ -1,0 +1,28 @@
+.container-fluid.breadcrumb
+	background-color: #c2c0b3
+	min-height: 50px
+	padding-top: 20px
+	margin-bottom: 0px
+	.pageTitle
+		padding: 0px
+		color: rgb(64,64,64)
+		font-size: 19px
+	.breadcrumb
+		display: inline-block
+		a
+			color: rgb(64,64,64)
+			&:hover
+				color: rgb(64,64,64)
+				text-decoration: none
+				border-bottom: 1px solid rgb(64,64,64)
+
+	.bc
+		text-align: right
+
+@media screen and (max-width: $screen-xs-max)
+	.container-fluid.breadcrumb
+		.pageTitle
+			text-align: center
+		.bc
+			text-align: center
+		

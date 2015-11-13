@@ -1,0 +1,19 @@
+{% for post in site.tags['team'] %}
+<div class="modal fade" id="{{post.permalink}}" tabindex="-1" role="dialog" aria-labelledby="my{{post.permalink}}" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header text-center">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">sluit</span></button>
+			</div>
+			<div class="modal-body text-center">
+				<img src="/assets/img/portraits/{{ post.title | replace: ' ', '-' }}.jpg" alt="portret van {{post.title}}" class="img-rounded">
+				<h3>{{post.title}}</h3>
+				{{post.content}}
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">sluit</button>
+			</div>
+		</div>
+	</div>
+</div>
+{% endfor %}

@@ -1,0 +1,29 @@
+# Site settings
+title: Brainspa
+email: info@brainspa.nl
+description: >
+  'Inzicht, focus en energie. Om te doen wat je wil doen, om te worden wie je bent. Door je brein en geest vrij te maken van ongewenste automatische patronen, komt er vrijheid en energie om vanuit je eigen kracht je leven vorm te geven. Wat wij doen Neurofeedback, biofeedback, Mindfulness oefeningen en coaching wordt geïntegreerd.'
+
+
+seo:
+  description: 'Inzicht, focus en energie. Om te doen wat je wil doen, om te worden wie je bent. Door je brein en geest vrij te maken van ongewenste automatische patronen, komt er vrijheid en energie om vanuit je eigen kracht je leven vorm te geven. Wat wij doen Neurofeedback, biofeedback, Mindfulness oefeningen en coaching wordt geïntegreerd.'
+  keywords: ''
+  logo: 'logo-header.png'
+  rel-author: 'Publiceervoormij.nl'
+  rel-publisher: 'Publiceervoormij.nl'
+  web-design: 'Publiceervoormij.nl'
+  web-author: 'Publiceervoormij.nl'
+  robots: 'index,follow'
+
+#Google Analytics
+ga:
+  id: ''
+  url: 'auto'
+
+
+
+contact-overig:
+- title: 'KVK: 62401904 '
+- title: 'BTW:'
+- title: 'Bank: NL25 RABO 0109 2871 77'
+

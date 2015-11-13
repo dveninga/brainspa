@@ -1,0 +1,13 @@
+<footer class="container-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <ul class="list-inline">
+          {% for social in site.data.socials %}
+          <li><a href="{{social.url}}"><i class="fa fa-{{social.icon}}"></i>{{social.title}}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>

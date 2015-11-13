@@ -1,0 +1,60 @@
+section.doelgroepen, .row.doelgroepen
+
+  .flipbox-container
+    height: 250px
+    cursor: pointer
+    &:hover
+      .flipbox-front
+        display: none
+        +transform(rotateY(180deg))
+      .flipbox-back
+        display: block
+        +transform(rotateX(0deg))
+    h2
+      font:
+        size: 26px
+        weight: 500
+  .flipper
+    +transition(600ms)
+    +transform-style(preserve-3d)
+    position: relative
+    
+  .flipbox
+    width: 100%
+    text-align: center
+    +perspective(1000)
+    +transform-style(preserve-3d)
+
+  .flipbox-front, .flipbox-back
+    +backface-visibility(hidden)
+    +transition(600ms)
+    +transform-style(preserve-3d)
+    position: absolute
+    top: 0
+    left: 0
+  .flipbox-front
+    z-index: 2
+    +transform(rotateY(0deg))
+    margin-top: 60px
+    h2
+      margin-top: 0px
+  .flipbox-back
+    +transform(rotateY(-180deg))
+    h2
+      margin-top: 30px
+      margin-bottom: 30px
+    .flipbox-text
+      margin-bottom: 30px
+.row.doelgroepen
+  padding-bottom: 60px
+
+@media screen and (max-width: $screen-xs-max)
+  section.doelgroepen, .row.doelgroepen
+    .flipbox-container
+      .flipper
+        .flipbox.flipbox-front
+          display: none
+        .flipbox.flipbox-back
+          +transform(rotateY(0deg))
+  .row.doelgroepen
+    padding-bottom: 30px

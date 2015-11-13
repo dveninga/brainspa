@@ -1,0 +1,26 @@
+section.themas
+  background-color: $brand
+  border-top: 1px solid tint($brand,30%)
+  border-bottom: 1px solid tint($brand,30%)
+  a
+    +transition(all 300ms ease-in-out)
+    color: $text-color
+    &:hover
+      text-decoration: none
+      color: tint($text-color,25%)
+  h3
+    margin-top: 0px
+    min-height: 58px
+    @media screen and (max-width: $screen-xs-max)
+      min-height: initial
+      margin-top: 20px
+
+@media screen and (max-width: $screen-xs-max)
+  section.themas
+    h2
+      text-align: center
+    .container
+      text-align: center
+    ul
+      padding-left: 0px
+      list-style: none

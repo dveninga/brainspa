@@ -1,0 +1,23 @@
+button: verzenden
+
+form-contact:
+- name: PERSON_NAME
+  title: voor- en achternaam
+  type: text
+  placeholder: vul hier uw voor- en achternaam in
+  required: true
+- name: EMAIL
+  type: email
+  title: e-mailadres
+  placeholder: vul hier uw e-mailadres in
+  required: true
+- name: PHONE
+  title: telefoonnummer
+  type: text
+  placeholder: vul hier uw telefoonnummer in
+  required: false
+- name: REMARK
+  title: vraag/opmerking
+  type: textarea
+  placeholder: vul hier eventueel uw vraag of opmerking in
+  required: false

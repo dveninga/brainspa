@@ -1,0 +1,15 @@
+section.wat-wij-doen
+  border-top: 1px solid $warm
+  background-color: tint($warm,50%)
+  .btn.btn-primary
+    background-color: $warm
+    border-color: $warm
+    +transition(all 300ms ease-in-out)
+    &:hover
+      background-color: white
+      border-color: white
+      color: $warm
+
+@media screen and (max-width: $screen-xs-max)
+  section.wat-wij-doen
+    text-align: center

@@ -1,0 +1,13 @@
+{% assign parent = page.parent %}
+<ul class="nav nav-pills nav-stacked">
+{% for menu in site.data.menu.level1 %}
+	{% if page.active == menu.class or page.parent == menu.class %}
+	<li {% if page.active == menu.class %}class="active"{% endif %}><a href="{{menu.url}}" title="ga naar {{menu.title}}">{{menu.title}}</a></li>
+		<ul class="nav nav-pills nav-stacked">
+	{% for submenu in menu.level2 %}
+		<li {% if page.active == submenu.class %}class="active"{% endif %}><a href="{{menu.url}}{{submenu.url}}" title="ga naar {{submenu.title}}">{{submenu.title}}</a></li>
+	{% endfor %}
+		</ul>
+	{% endif %}
+{% endfor %}
+</ul>

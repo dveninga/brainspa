@@ -1,0 +1,66 @@
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.brainspa.nl" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+port: 4000
+permalink: pretty
+
+dev: y
+
+exclude: ['CNAME', 'README.md', 'PSD', 'node_modules', 'package.json', 'gruntfile.js']
+
+gems:
+- jekyll-redirect-from
+- jekyll-sitemap
+
+
+# prose.io config
+prose:
+  ignore: ['.gitignore', '_config.yml', 'CNAME', 'gruntfile.js', 'forms.yml', 'package.json', '_includes', '_layouts', 'build', 'vorige-website']
+  siteurl: "http://www.brainspa.nl"
+  media: "/assets/img/"
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "noindex"
+        field:
+          element: "checkbox"
+          label: "Voorkom dat google pagina indexeert"
+          help: "Als ingeschakeld wordt de pagina niet gevonden in zoekmachines."
+          value: false
+      - name: "sitemap"
+        field:
+          element: "checkbox"
+          label: "Neem pagina op in sitemap (SEO)"
+          value: true
+      - name: "publish"
+        field:
+          element: "checkbox"
+          label: "Publiceer op website"
+          help: "Schakel uit om pagina niet te tonen in de website."
+          value: true
+      - name: "published"
+        field:
+          element: "hidden"
+          value: true
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          placeholder: "url van pagina"
+          type: "text"
+      - name: "redirect_from"
+        field:
+          element: "multiselect"
+          label: "Redirect_from"
+          placeholder: "vul url in"
+          alterable: "true"

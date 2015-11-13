@@ -1,0 +1,21 @@
+---
+layout: page
+title: Adoptie en hechtingsproblematiek
+active: adoptie
+class: adoptie
+banner: kind.jpg
+parent: kinderen
+---
+Bij BrainSpa zien we veel kinderen en adolescenten met een adoptieachtergrond en hechtingsproblematiek. Door onze expertise en ervaring op dit gebied, kunnen we snel schakelen als het gaat om adoptiespecifieke aandachtsgebieden. Ieder kind is uniek en dat geldt ook voor adoptiekinderen. Daarom maken wij een goede afstemming met het kind, de ouders en school. Het kind wordt geholpen in het doormaken van een goede ontwikkeling door meer grip te krijgen op concentratie, angst, ontspanning, herstel van stress, ontspanning en aanpak van schooltaken. De basisrust wordt versterkt, de innerlijke stabiliteit verstevigd en het concentratievermogen getraind. Ouders en school worden ondersteund in het creëren van de randvoorwaarden die nodig zijn voor het kind om tot rust en leren te komen.
+
+Doordat de start van kinderen met een adoptieachtergrond vaak gekenmerkt wordt door een combinatie van ongunstige factoren waaronder slechte leefomstandigheden, ondervoeding, verwaarlozing en het ontbreken van een hechtingsfiguur, heeft dit gevolgen voor de eerste ontwikkeling van de hersenen. De hersenen komen veelal in een ‘fight-flight response’ om als persoon te kunnen overleven. Dit kenmerkt zich veelal door een overalert zijn op de omgeving, soms heftig reageren op de omgeving, zich juist terug te trekken uit het contact, ofwel een combinatie. De eerste ontwikkeling van de hersenen is van belang ook voor de ontwikkeling van hersenstructuren die zich later ontwikkelen. Het is dan ook niet vreemd dat zich vroeg of laat bijzonderheden in het functioneren voordoen. Dit kan zich op verschillende gebieden uiten:
+
+* **leren**, veel van de kinderen die wij zien hebben problemen met concentreren, automatiseren, maar ook met motivatie voor dat wat ze op school moeten leren;
+* **sociaal-emotioneel** kunnen zich problemen voordoen bij afstemming in het contact, maar ook in bijvoorbeeld het emotioneel evenwicht (agressieregulatie, overmatige angst, niet lekker in vel, reactieve hechtingsproblematiek);
+* **(neuro)fysiologie**; vaak heeft de stress vanuit de eerste levensmaanden of jaren een blijvende impact op het (neuro)fysiologisch evenwicht. Ook al is de omgeving inmiddels veilig en liefdevol, het brein en het verdere lichaam verkeren nog in staat van paraatheid voor dreigend gevaar. Daardoor kunnen er allerlei klachten ontstaan zoals problemen met slapen, niet goed tot rust kunnen komen, overgevoelig zijn voor prikkels, etc.
+
+Bij BrainSpa is er een twee-sporen beleid:
+
+* **Neuro- en biofeedback training**: Het kind wordt neurofysiologisch naar een goed evenwicht getraind met neurofeedback en biofeedback. Hierbij ervaart en oefent het kind hoe het ontspannen aanwezig kan zijn en de focus goed kan richting zonder afgeleid of overspoeld te raken door allerlei storende prikkels.  Het ene kind moet bijvoorbeeld leren om in een ontspannen focus te komen en angsten los te laten. Het andere kind moet juist leren om een meer actieve focus op te roepen en wat alerter aanwezig te zijn. Wat er getraind wordt, hangt af van wat er uit de analyse is gekomen en wat de specifieke aandachtsgebieden en leerdoelen zijn.
+
+**Coaching en begeleiding**: Er vindt coaching van het kind en begeleiding van ouders en  leerkrachten plaats. Het kind wordt heel concreet gecoacht in bewust kunnen schakelen naar de goede focus, hoe het om kan gaan met afleidende geluiden of negatieve gedachten/emoties, planning van (huis)werk en taakaanpak in de klas. Ouders en leerkrachten worden meegenomen in dit proces om ook thuis en in de klas de randvoorwaarden te kunnen creëren om het geleerde in te zetten in de praktijk. Hier vloeien ook adviezen uit voort met betrekking tot leerstrategieën en eventuele hulpmiddelen.

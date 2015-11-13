@@ -1,0 +1,31 @@
+---
+layout: default
+---
+{% include breadcrumb.html %}
+{% if page.banner %}
+<section class="container-fluid banner" style="background-image: url('/assets/img/banners/{{page.banner}}')"></section>
+{% endif %}
+<section class="container-fluid {{page.class}}">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-3 menu-sidebar">
+				{% include submenu.html %}
+			</div>
+			<div class="col-sm-9 content team">
+				<div class="row">
+					{% for post in site.tags['team'] %}
+					<div class="col-sm-6 col-md-6 col-lg-4">
+						<div class="content-wrapper">
+							<img src="/assets/img/portraits/{{ post.title | replace: ' ', '-' }}.jpg" alt="portret van {{post.title}}" class="img-rounded">
+							<h3>{{post.title}}</h3>
+							{{post.excerpt}}
+							<a href="#" data-toggle="modal" data-target="#{{post.permalink}}" class="btn btn-primary">lees verder</a>
+						</div>
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+{% include medewerkers-modal.html %}

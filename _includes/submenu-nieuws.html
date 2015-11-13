@@ -1,0 +1,4 @@
+<ul class="nav nav-pills nav-stacked">
+	{% for post in site.tags['nieuws'] %}
+	<li {% if page.url == post.url %}class="active"{% endif %}><a href="{{post.url}}" title="ga naar {{post.title}}">{{post.title}}</a></li>{% endfor %}
+</ul>

@@ -1,0 +1,75 @@
+level1:
+  - title: Over ons
+    url: /over-ons
+    class: over-ons
+    level2:
+      - title: Wie we zijn
+        url: /wie-we-zijn
+        class: wie-we-zijn
+      - title: Praktische informatie
+        url: /praktische-informatie
+        class: praktische-informatie
+      - title: Algemene informatie
+        url: /algemene-informatie
+        class: algemene-informatie
+  - title: Onze aanpak
+    url: /onze-aanpak
+    class: onze-aanpak
+    level2:
+      - title: Methoden
+        url: /methoden
+        class: methoden
+      - title: Proces
+        url: /proces
+        class: proces
+  - title: Voor jou
+    url: /voor-jou
+    class: voor-jou
+    level2:
+      - title: Analyse
+        url: /analyse
+        class: analyse
+      - title: Intensive
+        url: /intensive
+        class: intensive
+      - title: Follow up
+        url: /follow-up
+        class: follow-up
+  - title: Zakelijk
+    url: /zakelijk
+    class: zakelijk
+    level2:
+      - title: Analyse
+        url: /analyse
+        class: analyse
+      - title: Preventie
+        url: /preventie
+        class: preventie
+      - title: Trajecten
+        url: /trajecten
+        class: trajecten
+  - title: Kinderen
+    url: /kinderen
+    class: kinderen
+    level2:
+      - title: Adoptie
+        url: /adoptie
+        class: adoptie
+      - title: Analyse
+        url: /analyse
+        class: analyse
+      - title: Intensive
+        url: /intensive
+        class: intensive
+      - title: Follow up
+        url: /follow-up
+        class: follow-up
+  - title: Trainingen & workshops
+    url: /trainingen-en-workshops
+    class: trainingen-en-workshops
+  - title: nieuws
+    url: /nieuws
+    class: nieuws
+  - title: contact
+    url: /contact
+    class: contact

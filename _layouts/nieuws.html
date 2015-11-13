@@ -1,0 +1,33 @@
+---
+layout: default
+---
+{% include breadcrumb.html %}
+{% if page.banner %}
+<section class="container-fluid banner" style="background-image: url('/assets/img/banners/{{page.banner}}')"></section>
+{% endif %}
+<section class="container-fluid {{page.class}}">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-3 menu-sidebar">
+				{% include submenu-nieuws.html %}
+			</div>
+			<div class="col-sm-9 content nieuws">
+				<div class="row">
+					{% for post in site.tags['nieuws'] %}
+					<div class="col-sm-12">
+						<div class="content-wrapper">
+							<p class="post-meta">{{ post.date | date: "%F" }}</p>
+							<h2 class="pageTitle"><a href="{{post.url}}" title="lees meer {{post.title}}">{{post.title}}</a></h2>
+							{{post.excerpt}}
+							<a href="{{post.url}}" class="btn btn-primary" title="lees meer {{post.title}}">lees meer</a>
+						</div>
+						<div class="share">
+							<div id="shareme"></div>
+						</div>
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

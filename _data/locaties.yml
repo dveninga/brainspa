@@ -1,0 +1,18 @@
+- place: zutphen
+  items: 
+    - title: BrainSpa Zutphen
+    - title: Waterstraat 5
+    - title: 7201 MH Zutphen
+    - title: The Netherlands
+    - title: +31 (0) 575 541060
+    - mail: info@brainspa.nl
+    - maps: 'https://maps.google.com/maps?q=waterstraat+5+zutphen&amp;iwloc=near&amp;output=embed'
+- place: naarden
+  items: 
+    - title: BrainSpa Naarden
+    - title: IJsselmeerweg 100
+    - title: 1411 DL Naarden
+    - title: The Netherlands
+    - title: +31 (0) 575 541060
+    - mail: info@brainspa.nl
+    - maps: 'https://maps.google.com/maps?q=ijsselmeerweg+100+naarden&amp;iwloc=near&amp;output=embed'

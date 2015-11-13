@@ -1,0 +1,53 @@
+nav
+  &.navbar-default
+    min-height: 86px
+    @media screen and (max-width: $screen-xs-max)
+      min-height: 57px
+    background-color: white
+    border-bottom: 1px solid tint($brand,50%)
+    .navbar-toggle
+      border: none
+      &:hover, &:active, &:focus
+        background-color: transparent
+        .icon-bar
+          background-color: $accent
+    .navbar-nav
+      .active
+        a, a:hover
+          color: $activelink
+          background-color: transparent
+  .navbar-collapse
+    border: none
+  .navbar-header
+    margin-left: 0px
+    margin-right: 0px
+    .navbar-brand
+      padding-top: 0px
+      img
+        max-height: 86px
+        @media screen and (max-width: $screen-xs-max)
+          max-height: 57px
+        display: block
+        height: auto
+  .navbar-nav
+    li
+      &.active
+        a
+          color: $activelink
+          background-color: transparent
+      a
+        height: 86px
+        @media screen and (max-width: $screen-xs-max)
+          height: 100%
+        vertical-align: middle
+        font-weight: 600
+        padding: 10px 9px
+        padding-top: 6px !important
+        padding-bottom: 0px !important
+        display: table-cell
+        color: $navbarlink
+        @media screen and (max-width: $screen-xs-max)
+          display: block
+          text-align: center
+          
+    
