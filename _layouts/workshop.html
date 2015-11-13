@@ -1,0 +1,24 @@
+---
+layout: default
+---
+{% include breadcrumb.html %}
+{% if page.banner %}
+<section class="container-fluid banner" style="background-image: url('/assets/img/banners/{{page.banner}}')"></section>
+{% endif %}
+<section class="container-fluid {{page.class}}">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-3 menu-sidebar">
+				{% include submenu.html %}
+				{% if page.class == 'workshop' %}
+				{% include submenu-workshops.html %}
+				{% endif %}
+			</div>
+			<div class="col-sm-9 content">
+				<h1 class="pageTitle">{{page.title}}</h1>
+				{{ content }}
+				{% include agenda.html %}
+			</div>
+		</div>
+	</div>
+</section>

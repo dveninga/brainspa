@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Workshop Het Kinderbrein
+layout: workshop
+title: Workshop het Kinderbrein
 tags:
  - workshop
 parent: workshop

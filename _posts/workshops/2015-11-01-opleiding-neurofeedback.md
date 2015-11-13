@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: workshop
 title: Opleiding neurofeedback en (lichaams)bewustzijn
 tags:
  - workshop

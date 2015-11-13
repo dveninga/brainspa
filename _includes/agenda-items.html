@@ -1,0 +1,53 @@
+  <div class="agenda-list row">
+    {% assign curDate = site.time | date: '%s' %}
+    {% assign prevCount = 0 %}
+    {% assign count = 0 %}
+    {% for item in site.data.agenda %}
+    {% assign pageTitle = {{page.title}} %}
+    {% if item.titel == pageTitle %}
+    {% assign count = count | plus: 1 %}
+    {% for date in item.datum %}
+    {% assign postdate = date | date: '%s' %}
+    {% if postdate >= curDate and count != prevCount %}
+    <div class="agenda-item col-sm-6">
+      <div class="row">
+        <div class="col-md-12">
+          <h3>{{item.titel}}</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8">
+          <ul class="list-unstyled">
+            <li>{% for date in item.datum %}<i class="fa fa-calendar"></i> <span class="date">{{date}}</span>{% endfor %}</li>
+            <li><i class="fa fa-clock-o"></i> {% if item.tijd != null%}{{item.tijd}}{% else %} 09:30 - 16:30 uur{% endif %}</li>
+            <li><a href="/trainingslocaties" title="ga naar pagina trainingslocaties"><i class="fa fa-map-marker"></i><span class="location">{{item.locatie}}<span></a>{% if item.duur != null %}, {{item.duur}}{%endif%}</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <a href="#" class="btn btn-primary subscribe" title="{{item.titel}}" data-title="{{item.titel}}" data-date="{% assign countDate = 0 %}{% for date in item.datum %}{% assign countDate = countDate | plus: 1%}{% if countDate > 1 %} + {% endif %}{{date}}{% endfor %}">inschrijven</a>
+        </div>
+      </div>      
+    </div>
+    {% assign prevCount = count %}
+    {% else %}
+    {% assign count = 0 %}
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+    {% endfor %}
+    {% if count == 0 %}
+    <div class="agenda-item">
+      <div class="row">
+        <div class="col-md-12"><h3>{{page.title}} <a href="#" class="btn-save" data-title="{{page.title}}" data-toggle="tooltip" data-placement="top" title="bewaar {{page.title}} in Wishlist (op deze computer)"><i class="fa fa-heart"></i></a></h3></div>
+      </div>
+      <div class="row">
+        <div class="col-md-9">
+          <p><small><strong>Opgelet!</strong> {{page.title}} is nog niet opgenomen in de planning. Door in te schrijven wordt u op een wachtlijst geplaatst en op een later tijdstip geïnformeerd over een datum en locatie.</small></p>
+        </div>
+        <div class="col-md-3">
+          <a href="#" class="btn btn-primary subscribe" title="{{page.title}}" data-title="{{page.title}}">inschrijven</a>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+  </div>

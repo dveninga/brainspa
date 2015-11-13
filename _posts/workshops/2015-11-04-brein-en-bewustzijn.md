@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: workshop
 title: Brein & Bewustzijn
 tags:
  - workshop

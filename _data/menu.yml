@@ -1,70 +1,70 @@
 level1:
-  - title: Over ons
+  - title: over ons
     url: /over-ons
     class: over-ons
     level2:
-      - title: Wie we zijn
+      - title: wie we zijn
         url: /wie-we-zijn
         class: wie-we-zijn
-      - title: Praktische informatie
+      - title: praktische informatie
         url: /praktische-informatie
         class: praktische-informatie
-      - title: Algemene informatie
+      - title: algemene informatie
         url: /algemene-informatie
         class: algemene-informatie
-  - title: Onze aanpak
+  - title: onze aanpak
     url: /onze-aanpak
     class: onze-aanpak
     level2:
-      - title: Methoden
+      - title: methoden
         url: /methoden
         class: methoden
-      - title: Proces
+      - title: proces
         url: /proces
         class: proces
-  - title: Voor jou
+  - title: voor jou
     url: /voor-jou
     class: voor-jou
     level2:
-      - title: Analyse
+      - title: analyse
         url: /analyse
         class: analyse
-      - title: Intensive
+      - title: intensive
         url: /intensive
         class: intensive
-      - title: Follow up
+      - title: follow up
         url: /follow-up
         class: follow-up
-  - title: Zakelijk
+  - title: zakelijk
     url: /zakelijk
     class: zakelijk
     level2:
-      - title: Analyse
+      - title: analyse
         url: /analyse
         class: analyse
-      - title: Preventie
+      - title: preventie
         url: /preventie
         class: preventie
-      - title: Trajecten
+      - title: trajecten
         url: /trajecten
         class: trajecten
-  - title: Kinderen
+  - title: kinderen
     url: /kinderen
     class: kinderen
     level2:
-      - title: Adoptie
+      - title: adoptie
         url: /adoptie
         class: adoptie
-      - title: Analyse
+      - title: analyse
         url: /analyse
         class: analyse
-      - title: Intensive
+      - title: intensive
         url: /intensive
         class: intensive
-      - title: Follow up
+      - title: follow up
         url: /follow-up
         class: follow-up
-  - title: Trainingen & workshops
+  - title: trainingen & workshops
     url: /trainingen-en-workshops
     class: trainingen-en-workshops
   - title: nieuws

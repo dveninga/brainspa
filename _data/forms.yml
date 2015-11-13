@@ -21,3 +21,65 @@ form-contact:
   type: textarea
   placeholder: vul hier eventueel uw vraag of opmerking in
   required: false
+
+form-workshop:
+- name: WORKSHOP
+  title: workshop
+  type: text
+  placeholder: vul hier uw workshop in
+  required: true
+  disabled: true
+- name: DATE
+  title: datum
+  type: text
+- name: SALUTATION
+  title: aanhef
+  type: radio
+  value: heer
+  label: Dhr.
+- name: SALUTATION
+  title: aanhef
+  type: radio
+  id: MWVR
+  value: mevrouw
+  label: Mevr.
+- name: FIRST_NAME
+  title: voornaam
+  type: text
+  placeholder: vul hier uw voornaam in
+  required: false
+- name: LAST_NAME
+  title: achternaam
+  type: text
+  placeholder: vul hier uw achternaam in
+  required: true
+- name: ORGANISATION_NAME
+  title: bedrijfsnaam
+  type: text
+  placeholder: vul hier uw bedrijfsnaam in
+- name: STREET[POSTAL]
+  title: postadres
+  type: text
+  placeholder: vul hier het postadres in
+- name: ZIP[POSTAL]
+  title: postcode
+  type: text
+  placeholder: vul hier de postcode in
+- name: CITY[POSTAL]
+  title: plaats
+  type: text
+  placeholder: vul hier de plaats in
+- name: PHONE
+  title: telefoonnummer
+  type: text
+  placeholder: vul hier uw telefoonnummer in
+  required: true
+- name: EMAIL
+  type: email
+  title: e-mailadres
+  placeholder: vul hier uw e-mailadres in
+  required: true
+- name: REMARK
+  title: opmerkingen / vragen
+  type: textarea
+  placeholder: vul hier eventueel uw vraag of opmerking in

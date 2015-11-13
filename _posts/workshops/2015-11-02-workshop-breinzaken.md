@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: workshop
 title: Workshop Breinzaken
 tags:
  - workshop
