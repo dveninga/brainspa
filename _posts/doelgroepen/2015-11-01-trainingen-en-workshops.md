@@ -1,7 +1,7 @@
 ---
 layout: page
 title: trainingen & workshops
-icon: wrench
+icon: workshops
 class: workshop
 tags:
  - doelgroep

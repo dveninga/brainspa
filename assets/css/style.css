@@ -8101,6 +8101,8 @@ section.doelgroepen .flipbox, .row.doelgroepen .flipbox {
   -ms-transform-style: preserve-3d;
   -o-transform-style: preserve-3d;
   transform-style: preserve-3d; }
+  section.doelgroepen .flipbox .icon-wrapper, .row.doelgroepen .flipbox .icon-wrapper {
+    margin-bottom: 25px; }
 section.doelgroepen .flipbox-front, section.doelgroepen .flipbox-back, .row.doelgroepen .flipbox-front, .row.doelgroepen .flipbox-back {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
