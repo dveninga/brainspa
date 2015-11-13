@@ -8257,9 +8257,12 @@ nav .navbar-nav li a {
       display: block;
       text-align: center; } }
 
+.content.nieuws .content-wrapper h2 {
+  margin-top: 0px; }
+
 .share {
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   border-bottom: 1px solid #b9b9a7;
   text-align: right; }
   @media screen and (max-width: 767px) {
