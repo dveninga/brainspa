@@ -1,0 +1,48 @@
+<form name="inschrijvenworkshop" id="inschrijvenworkshopForm" role="form" class="form">
+  <div class="row">
+    <div class="col-md-12">
+      <a class="target" id="inschrijfformulier" name="inschrijfformulier"></a>
+      <h2>Inschrijfformulier</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+{% for form in site.data.forms.form-workshop %}
+      {% if form.type == 'select' %}
+      <div class="form-group has-feedback">
+        <label>{{form.title}}</label>
+        <select name="{{form.name}}" id="{{form.name}}" class="form-control" {% if form.required%}required{%endif%}>
+          <option value="">{{form.title}} &mdash; maak uw keuze &mdash;</option>
+        {% for select in form.select %}
+          <option value="{{select.value}}">{{select.title}}</option>
+        {% endfor %}
+        </select>
+      </div>
+      {% elsif form.type == 'textarea' %}
+      <div class="form-group has-feedback">
+        <label>{{form.title}}</label>
+        <textarea name="{{form.name}}" id="{{form.name}}" class="form-control" rows="5" placeholder="{{form.placeholder}}" {% if form.required%}required{%endif%}></textarea>
+      </div>
+          {% elsif form.type == 'checkbox' %}
+      <div class="checkbox has-feedback">
+            <label class="checkbox-inline"><input type="checkbox" name="{{form.name}}" /><span class="label-text">{{form.title}}</span></label>
+         </div>
+         {% elsif form.type == 'radio' %}
+          <label class="radio-inline">
+            <input type="{{form.type}}" name="{{form.name}}" id="{{form.id}}" value="{{form.value}}"> {{form.label}}
+          </label>         
+          {% else %}
+      <div class="form-group has-feedback">
+        <label for="{{form.name}}">{{form.title}}</label>
+        <input type="{{form.type}}" name="{{form.name}}" placeholder="{{form.placeholder}}" class="form-control" id="{{form.name}}" {% if form.required%}required{%endif%} />
+      </div>
+      {% endif %}
+{% endfor %}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <button type="submit" class="btn btn-primary">{{site.data.forms.button}}</button>
+    </div>
+  </div>
+</form>
