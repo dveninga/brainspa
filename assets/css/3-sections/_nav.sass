@@ -50,4 +50,13 @@ nav
           display: block
           text-align: center
           
-    
+@media screen and (max-width: $screen-xs-max)
+  nav.navbar-default
+    .navbar-header
+      .navbar-brand
+        padding-top: 15px
+    #navbar
+      .navbar-nav
+        li
+          a
+            padding-bottom: 8px !important

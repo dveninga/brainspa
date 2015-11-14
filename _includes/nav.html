@@ -1,12 +1,21 @@
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" data-toggle="collapse" data-target="#navbar" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="/" class="navbar-brand visible-lg"><img src="/assets/img/logo-header.png"/></a>
+      <button type="button" data-toggle="collapse" data-target="#navbar" class="navbar-toggle collapsed">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/" class="navbar-brand visible-lg">
+        <img src="/assets/img/logo-header.png"/>
+      </a>
+      <a href="/" class="navbar-brand visible-xs"><span>Brainspa</span></a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
       {% for menu in site.data.menu.level1 %}
-        <li class="{{ menu.title }} {% if page.active == menu.class %} active{% endif %}"><a class="{{ menu.class }}" href="{{ menu.url }}">{{ menu.title }}</a></li>
+        <li class="{{menu.class}} {% if page.active == menu.class %} active{% endif %}{%if menu.class == 'home' %} hidden-sm{%endif%}"><a class="{{ menu.class }}" href="{{ menu.url }}">{{ menu.title }}</a></li>
         {% endfor %}
       </ul>
     </div>

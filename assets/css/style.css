@@ -8213,6 +8213,12 @@ section.fasen {
     @media screen and (max-width: 767px) {
       section.fasen .content-wrapper {
         padding: 0px; } }
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+      section.fasen .content-wrapper {
+        padding: 5px; } }
+    @media screen and (min-width: 992px) and (max-width: 1199px) {
+      section.fasen .content-wrapper {
+        padding: 15px; } }
 
 @media screen and (max-width: 767px) {
   footer ul li {
@@ -8305,6 +8311,11 @@ nav .navbar-nav li a {
       display: block;
       text-align: center; } }
 
+@media screen and (max-width: 767px) {
+  nav.navbar-default .navbar-header .navbar-brand {
+    padding-top: 15px; }
+  nav.navbar-default #navbar .navbar-nav li a {
+    padding-bottom: 8px !important; } }
 .content.nieuws .content-wrapper h2 {
   margin-top: 0px; }
 
