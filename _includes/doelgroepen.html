@@ -2,7 +2,8 @@
   <div class="col-sm-4">
     <div ontouchstart="this.classList.toggle('hover');" class="flipbox-container">
       <div class="flipper">
-        <div class="flipbox flipbox-front"><i class="fa fa-{{post.icon}}"></i>
+        <div class="flipbox flipbox-front">
+          <div class="icon-wrapper">{% include icon-{{post.icon}}.html %}</div>
           <h2>{{post.title}}</h2>
         </div>
         <div class="flipbox flipbox-back">
