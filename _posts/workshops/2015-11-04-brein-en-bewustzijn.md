@@ -3,6 +3,7 @@ layout: workshop
 title: Brein & Bewustzijn
 tags:
  - workshop
+ - voor-jou
 parent: workshop
 class: workshop
 permalink: brein-en-bewustzijn

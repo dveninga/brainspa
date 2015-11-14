@@ -13,14 +13,17 @@ $(function() {
         $body = $('body'),
         vakgebied,
         currentBodyClass = $body.attr('class'),
-        pageTitle = $('h1.pageTitle').html();
+        pageTitle = $('h1.pageTitle').html(),
+        $navbar = $('.navbar.navbar-static-top'),
+        $header = $('header');
     smoothScroll(1000);
     toTop(mobile);
     marktable();
     datify();
-    // $(window).scroll(function() {
-    //     makeMenuFixed();
-    // });
+    //mainNav();
+    $(window).scroll(function() {
+        mainNav();
+    });
     // default behaviour external links new windows
     $("a[href^='http://']").attr("target", "_blank");
     $("a[href^='https://']").attr("target", "_blank");
@@ -121,6 +124,16 @@ $(function() {
             }
         });
     }
+
+    function mainNav() {
+        var top = (document.documentElement && document.documentElement.scrollTop) || document.body.scrollTop;
+        console.log($header.height(), top);
+        if (top >= ($header.height() + $navbar.height())) {
+            $navbar.addClass('navbar-fixed-top');
+        } else {
+            $navbar.removeClass('navbar-fixed-top');
+        }
+    }
 });
 
 function marktable() {
@@ -193,17 +206,5 @@ function appendBootstrap() {
         script.type = "text/javascript";
         script.src = "//maps.google.com/maps/api/js?sensor=false&callback=initialize";
         document.body.appendChild(script);
-    }
-}
-
-function makeMenuFixed() {
-    var navWrapper = $('.nav-wrapper .nav'),
-        submenuBar = $('.container-fluid.nav').height(),
-        top = submenuBar,
-        wScroll = $(this).scrollTop();
-    if (wScroll >= top) {
-        navWrapper.addClass('navbar-fixed-top');
-    } else {
-        navWrapper.removeClass('navbar-fixed-top');
     }
 }

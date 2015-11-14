@@ -1,10 +1,19 @@
-nav
-  &.navbar-default
+nav.navbar-wrapper
+  @media screen and (max-width: $screen-xs-max)
+    min-height: 50px
+  @media screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max)
+    min-height: 64px
+  @media screen and (min-width: $screen-md-min) and (max-width: $screen-md-max)
+    min-height: 58px
+  @media screen and (min-width: $screen-lg-min)
     min-height: 86px
-    @media screen and (max-width: $screen-xs-max)
-      min-height: 57px
-    background-color: white
+.navbar
+  margin-bottom: 0px
+  &.navbar-default
     border-bottom: 1px solid tint($brand,50%)
+    +transition(all 600ms ease-in-out)
+    &.navbar-fixed-top
+      background-color: white
     .navbar-toggle
       border: none
       &:hover, &:active, &:focus
@@ -22,41 +31,51 @@ nav
     margin-left: 0px
     margin-right: 0px
     .navbar-brand
+      padding-bottom: 0px
       padding-top: 0px
+      height: auto
       img
         max-height: 86px
-        @media screen and (max-width: $screen-xs-max)
-          max-height: 57px
         display: block
-        height: auto
+        @media screen and (max-width: $screen-xs-max)
+          //max-height: 57px
+        @media screen and (max-width: $screen-xs-max)
+        @media screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max)
+          max-height: 57px
+        @media screen and (min-width: $screen-md-min) and (max-width: $screen-md-max)
+          max-height: 57px
+        @media screen and (min-width: $screen-lg-min)
+          max-height: 86px
   .navbar-nav
+    @media screen and (max-width: $screen-xs-max)
+      margin-top: 0px
+    @media screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max)
+      margin-top: 13px
+    @media screen and (min-width: $screen-md-min) and (max-width: $screen-md-max)
+      margin-top: 5px
+    @media screen and (min-width: $screen-lg-min)
+      margin-top: 22px
+
     li
       &.active
         a
           color: $activelink
           background-color: transparent
       a
-        height: 86px
-        @media screen and (max-width: $screen-xs-max)
-          height: 100%
-        vertical-align: middle
         font-weight: 600
-        padding: 10px 9px
-        padding-top: 8px !important
-        padding-bottom: 0px !important
-        display: table-cell
         color: $navbarlink
         @media screen and (max-width: $screen-xs-max)
           display: block
           text-align: center
           
 @media screen and (max-width: $screen-xs-max)
-  nav.navbar-default
+  .navbar.navbar-default
     .navbar-header
       .navbar-brand
         padding-top: 15px
     #navbar
       .navbar-nav
+        margin: 0px 7.5px
         li
           a
             padding-bottom: 8px !important

@@ -3,6 +3,7 @@ layout: workshop
 title: Workshop het Kinderbrein
 tags:
  - workshop
+ - kinderen
 parent: workshop
 class: workshop
 permalink: workshop-het-kinderbrein
