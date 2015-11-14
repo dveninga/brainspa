@@ -1,4 +1,7 @@
 <ul class="nav nav-pills nav-stacked">
+	{% if page.active != 'trainingen-en-workshops' %}
+	<li><a href="/trainingen-en-workshops">Trainingen & workshops</a></li>
+	{% endif %}
 	{% for post in site.tags['workshop'] %}
 	<li {% if page.url == post.url %}class="active"{% endif %}><a href="{{post.url}}" title="ga naar {{post.title}}">{{post.title}}</a></li>{% endfor %}
 </ul>
