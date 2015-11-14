@@ -1,4 +1,7 @@
 level1:
+  - title: home
+    url: /
+    class: home
   - title: over ons
     url: /over-ons
     class: over-ons
