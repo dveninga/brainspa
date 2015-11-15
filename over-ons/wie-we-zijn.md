@@ -1,5 +1,5 @@
 ---
-layout: wie-we-zijn
+layout: page
 title: Wie we zijn
 active: wie-we-zijn
 class: wie-we-zijn
