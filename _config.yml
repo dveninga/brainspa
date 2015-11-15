@@ -18,7 +18,7 @@ gems:
 
 # prose.io config
 prose:
-  ignore: ['.gitignore', '_config.yml', 'CNAME', 'gruntfile.js', 'forms.yml', 'package.json', '_includes', '_layouts', 'build']
+  ignore: ['.gitignore', '_config.yml', 'CNAME', 'gruntfile.js', 'forms.yml', 'package.json', '_includes', '_layouts', 'build', 'links.jsonp']
   siteurl: "http://www.brainspa.nl"
   relativeLinks: 'http://brainspa.publiceervoormij.nl/links.jsonp'
   media: "/assets/img/"
@@ -54,7 +54,6 @@ prose:
           label: "Doelgroepen"
           help: "Kies twee doelgroepen."
           placeholder: "kies tag"
-          alterable: "false"
           options: 
             - name: doelgroep
               value: doelgroep
@@ -270,7 +269,6 @@ prose:
           label: "Groep"
           help: "Kies één of meerdere groepen. Kies in ieder geval tag 'team'."
           placeholder: "kies tag"
-          alterable: "false"
           options: 
             - name: team
               value: team
@@ -610,7 +608,6 @@ prose:
           label: "Doelgroepen"
           help: "Kies één of meerdere doelgroepen. Kies in ieder geval tag 'workshop'."
           placeholder: "kies tag"
-          alterable: "false"
           options: 
             - name: workshop
               value: workshop

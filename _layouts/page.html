@@ -5,6 +5,9 @@ layout: default
 {% if page.banner %}
 <section class="container-fluid banner" style="background-image: url('/assets/img/banners/{{page.banner}}')"></section>
 {% endif %}
+{% if page.active == 'sitemap' %}
+{% include sitemap.html %}
+{% endif %}
 {% if page.active == 'wie-we-zijn' %}
 <section class="container-fluid {{page.class}}">
 	<div class="container">
