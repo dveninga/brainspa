@@ -8460,14 +8460,17 @@ form {
   background-color: #c2c0b3;
   min-height: 50px;
   padding-top: 20px;
-  margin-bottom: 0px;
-  border-radius: 0px; }
+  border-radius: 0px;
+  margin-bottom: 0px; }
   .container-fluid.breadcrumb .pageTitle {
     padding: 0px;
+    margin-top: 2px;
     color: #404040;
     font-size: 19px; }
   .container-fluid.breadcrumb .breadcrumb {
-    display: inline-block; }
+    display: inline-block;
+    margin-bottom: 16px;
+    padding: 0px; }
     .container-fluid.breadcrumb .breadcrumb a {
       color: #404040; }
       .container-fluid.breadcrumb .breadcrumb a:hover {
