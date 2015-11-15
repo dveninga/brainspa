@@ -1,13 +1,13 @@
 <section class="container-fluid fasen">
   <div class="container">
-    <div class="row">{% for post in site.tags['fase'] %}
+    <div class="row">{% for post in site.tags['fase'] %}{% if post.publish != false %}
       <div class="col-sm-4 content">
         <div class="content-wrapper">
           <h2 class="text-center"><i class="fa fa-{{post.icon}}"></i></h2>
           <h3>{{post.title}}</h3>
           {{post.content}}
         </div>
-      </div>{% endfor %}
+      </div>{%endif%}{% endfor %}
     </div>
   </div>
 </section>

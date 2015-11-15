@@ -415,7 +415,7 @@ layout: default
 								<tbody>
 									{% assign count = 0 %}
 									{% for page in site.pages %}
-									{% if page.layout == 'page' or page.layout == 'nieuws' or page.layout == 'contact' %}
+									{% if page.layout == 'page' or page.layout == 'nieuws' or page.layout == 'contact' or page.layout == 'home' %}
 									{% assign count = count | plus: 1 %}
 									<tr>
 										<td>{{count}}</td>

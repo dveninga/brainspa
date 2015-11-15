@@ -1,4 +1,4 @@
-<div class="row doelgroepen">{% for post in site.tags['onze-aanpak'] %}
+<div class="row doelgroepen">{% for post in site.tags['onze-aanpak'] %}{% if post.publish != false %}
   <div class="col-sm-4">
     <div ontouchstart="this.classList.toggle('hover');" class="flipbox-container">
       <div class="flipper">
@@ -13,5 +13,5 @@
         </div>
       </div>
     </div>
-  </div>{% endfor %}
+  </div>{%endif%}{% endfor %}
 </div>

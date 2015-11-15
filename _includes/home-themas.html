@@ -8,6 +8,7 @@
     </div>
     <div class="row">
       {% for thema in site.data.themas %}
+      {% if thema.publish != false %}
       {% assign count = count | plus: 1%}
       <div class="col-sm-6 col-md-3 content">
         <h3>{{thema.title}}</h3>
@@ -20,6 +21,7 @@
       {% if count == 2 %}
       <div class="visible-sm clearfix"></div>
       {% endif %}
+      {%endif%}
       {% endfor %}
     </div>
   </div>
