@@ -32,6 +32,22 @@ prose:
         field:
           element: "text"
           label: "title"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Doelgroepen"
+          help: "Kies één of meerdere doelgroepen. Kies in ieder workshop."
+          placeholder: "kies tag"
+          alterable: "true"
+          options: 
+            - name: workshop
+              value: workshop
+            - name: voor-jou
+              value: voor-jou
+            - name: kinderen
+              value: kinderen
+            - name: zakelijk
+              value: zakelijk
       - name: "parent"
         field:
           element: "hidden"
