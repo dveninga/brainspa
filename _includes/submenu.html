@@ -2,10 +2,12 @@
 <ul class="nav nav-pills nav-stacked">
 {% for menu in site.data.menu.level1 %}
 	{% if page.active == menu.class or page.parent == menu.class %}
-	<li {% if page.active == menu.class %}class="active"{% endif %}><a href="{{menu.url}}" title="ga naar {{menu.title}}">{{menu.title}}</a></li>
+	{% if menu.publish != false %}
+	<li {% if page.active == menu.class %}class="active"{% endif %}><a href="{{menu.url}}" title="ga naar {{menu.title}}">{{menu.title}}</a></li>{% endif %}
 		<ul class="nav nav-pills nav-stacked">
-	{% for submenu in menu.level2 %}
+	{% for submenu in menu.level2 %}{% if submenu.publish != false %}
 		<li {% if page.active == submenu.class %}class="active"{% endif %}><a href="{{menu.url}}{{submenu.url}}" title="ga naar {{submenu.title}}">{{submenu.title}}</a></li>
+	{% endif %}
 	{% endfor %}
 		</ul>
 	{% endif %}
