@@ -18,19 +18,28 @@ gems:
 
 # prose.io config
 prose:
-  ignore: ['.gitignore', '_config.yml', 'CNAME', 'gruntfile.js', 'forms.yml', 'package.json', '_includes', '_layouts', 'build', 'vorige-website']
+  ignore: ['.gitignore', '_config.yml', 'CNAME', 'gruntfile.js', 'forms.yml', 'package.json', '_includes', '_layouts', 'build']
   siteurl: "http://www.brainspa.nl"
+  relativeLinks: 'http://brainspa.publiceervoormij.nl/links.jsonp'
   media: "/assets/img/"
   metadata:
-    _posts:
+    _posts/workshops:
       - name: "layout"
         field:
           element: "hidden"
-          value: "post"
+          value: "workshop"
       - name: "title"
         field:
           element: "text"
           label: "title"
+      - name: "parent"
+        field:
+          element: "hidden"
+          value: "workshop"
+      - name: "class"
+        field:
+          element: "hidden"
+          value: "workshop"
       - name: "noindex"
         field:
           element: "checkbox"
