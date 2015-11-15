@@ -5,3 +5,4 @@ active: sitemap
 class: sitemap
 sitemap: false
 ---
+{% include sitemap.html %}
