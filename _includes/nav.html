@@ -16,7 +16,7 @@
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
         {% for menu in site.data.menu.level1 %}
-          <li class="{{menu.class}} {% if page.active == menu.class %} active{% endif %}{%if menu.class == 'home' %} hidden-sm hidden-md {%endif%}"><a class="{{ menu.class }}" href="{{ menu.url }}">{{ menu.title }}</a></li>
+          <li class="{{menu.class}} {% if page.active == menu.class or page.parent == menu.class %} active{% endif %}{%if menu.class == 'home' %} hidden-sm hidden-md {%endif%}"><a class="{{ menu.class }}" href="{{ menu.url }}">{{ menu.title }}</a></li>
           {% endfor %}
         </ul>
       </div>
