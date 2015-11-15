@@ -2,6 +2,8 @@
 {% include htmlOpen.html %}
 {% include nav.html %}
 {{ content }}
+{% if page.active != 'overzicht' %}
 {% include footer-contact.html %}
 {% include footer.html %}
+{% endif %}
 {% include htmlClose.html %}

@@ -332,7 +332,6 @@ prose:
           label: "Tags"
           help: "Thema en basisrust zijn de tags die nodig zijn."
           placeholder: "kies tag"
-          alterable: "false"
           options: 
             - name: thema
               value: thema
@@ -390,7 +389,6 @@ prose:
           label: "Tags"
           help: "Thema en bewustzijn zijn de tags die nodig zijn."
           placeholder: "kies tag"
-          alterable: "false"
           options: 
             - name: thema
               value: thema
@@ -448,7 +446,6 @@ prose:
           label: "Tags"
           help: "Thema en concentratie zijn de tags die nodig zijn."
           placeholder: "kies tag"
-          alterable: "false"
           options: 
             - name: thema
               value: thema
@@ -506,7 +503,6 @@ prose:
           label: "Tags"
           help: "Thema en stress zijn de tags die nodig zijn."
           placeholder: "kies tag"
-          alterable: "false"
           options: 
             - name: thema
               value: thema
