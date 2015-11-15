@@ -23,6 +23,582 @@ prose:
   relativeLinks: 'http://brainspa.publiceervoormij.nl/links.jsonp'
   media: "/assets/img/"
   metadata:
+    _posts/doelgroepen:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "icon"
+        field:
+          element: "select"
+          label: "icon"
+          help: "Geef hier de naam van het icon (technisch aspect)"
+          options:
+            - name: kinderen
+              value: kinderen
+            - name: voor-jou
+              value: voor-jou
+            - name: zakelijk
+              value: zakelijk
+      - name: "class"
+        field:
+          element: "hidden"
+          value: "workshop"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Doelgroepen"
+          help: "Kies twee doelgroepen."
+          placeholder: "kies tag"
+          alterable: "false"
+          options: 
+            - name: doelgroep
+              value: doelgroep
+            - name: onze-aanpak
+              value: onze-aanpak
+      - name: "noindex"
+        field:
+          element: "checkbox"
+          label: "Voorkom dat google pagina indexeert"
+          help: "Als ingeschakeld wordt de pagina niet gevonden in zoekmachines."
+          value: false
+      - name: "sitemap"
+        field:
+          element: "checkbox"
+          label: "Neem pagina op in sitemap (SEO)"
+          value: true
+      - name: "publish"
+        field:
+          element: "checkbox"
+          label: "Publiceer op website"
+          help: "Schakel uit om pagina niet te tonen in de website."
+          value: true
+      - name: "published"
+        field:
+          element: "hidden"
+          value: true
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          placeholder: "url van pagina"
+          type: "text"
+      - name: "redirect_from"
+        field:
+          element: "multiselect"
+          label: "Redirect_from"
+          placeholder: "vul url in"
+          alterable: "true"
+    _posts/fasen:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "icon"
+        field:
+          element: "select"
+          label: "icon"
+          help: "Geef hier de naam van het icon (technisch aspect)"
+          options:
+            - name: info-circle
+              value: info-circle
+            - name: play-circle
+              value: play-circle
+            - name: arrows-alt
+              value: arrows-alt
+      - name: "tags"
+        field:
+          element: "hidden"
+          value: "fase"
+      - name: "class"
+        field:
+          element: "hidden"
+          value: "fase"
+      - name: "noindex"
+        field:
+          element: "checkbox"
+          label: "Voorkom dat google pagina indexeert"
+          help: "Als ingeschakeld wordt de pagina niet gevonden in zoekmachines."
+          value: false
+      - name: "sitemap"
+        field:
+          element: "checkbox"
+          label: "Neem pagina op in sitemap (SEO)"
+          value: true
+      - name: "publish"
+        field:
+          element: "checkbox"
+          label: "Publiceer op website"
+          help: "Schakel uit om pagina niet te tonen in de website."
+          value: true
+      - name: "published"
+        field:
+          element: "hidden"
+          value: true
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          placeholder: "url van pagina"
+          type: "text"
+      - name: "redirect_from"
+        field:
+          element: "multiselect"
+          label: "Redirect_from"
+          placeholder: "vul url in"
+          alterable: "true"
+    _posts/methoden:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "tags"
+        field:
+          element: "hidden"
+          value: "methode"
+      - name: "class"
+        field:
+          element: "hidden"
+          value: "methode"
+      - name: "noindex"
+        field:
+          element: "checkbox"
+          label: "Voorkom dat google pagina indexeert"
+          help: "Als ingeschakeld wordt de pagina niet gevonden in zoekmachines."
+          value: false
+      - name: "sitemap"
+        field:
+          element: "checkbox"
+          label: "Neem pagina op in sitemap (SEO)"
+          value: true
+      - name: "publish"
+        field:
+          element: "checkbox"
+          label: "Publiceer op website"
+          help: "Schakel uit om pagina niet te tonen in de website."
+          value: true
+      - name: "published"
+        field:
+          element: "hidden"
+          value: true
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          placeholder: "url van pagina"
+          type: "text"
+      - name: "redirect_from"
+        field:
+          element: "multiselect"
+          label: "Redirect_from"
+          placeholder: "vul url in"
+          alterable: "true"
+    _posts/nieuws:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "tags"
+        field:
+          element: "hidden"
+          value: "nieuws"
+      - name: "class"
+        field:
+          element: "hidden"
+          value: "nieuws"
+      - name: "noindex"
+        field:
+          element: "checkbox"
+          label: "Voorkom dat google pagina indexeert"
+          help: "Als ingeschakeld wordt de pagina niet gevonden in zoekmachines."
+          value: false
+      - name: "sitemap"
+        field:
+          element: "checkbox"
+          label: "Neem pagina op in sitemap (SEO)"
+          value: true
+      - name: "publish"
+        field:
+          element: "checkbox"
+          label: "Publiceer op website"
+          help: "Schakel uit om pagina niet te tonen in de website."
+          value: true
+      - name: "published"
+        field:
+          element: "hidden"
+          value: true
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          placeholder: "url van pagina"
+          type: "text"
+      - name: "redirect_from"
+        field:
+          element: "multiselect"
+          label: "Redirect_from"
+          placeholder: "vul url in"
+          alterable: "true"
+    _posts/team:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Groep"
+          help: "Kies één of meerdere groepen. Kies in ieder geval tag 'team'."
+          placeholder: "kies tag"
+          alterable: "false"
+          options: 
+            - name: team
+              value: team
+            - name: management
+              value: management
+      - name: "class"
+        field:
+          element: "hidden"
+          value: "team"
+      - name: "noindex"
+        field:
+          element: "checkbox"
+          label: "Voorkom dat google pagina indexeert"
+          help: "Als ingeschakeld wordt de pagina niet gevonden in zoekmachines."
+          value: false
+      - name: "sitemap"
+        field:
+          element: "checkbox"
+          label: "Neem pagina op in sitemap (SEO)"
+          value: true
+      - name: "publish"
+        field:
+          element: "checkbox"
+          label: "Publiceer op website"
+          help: "Schakel uit om pagina niet te tonen in de website."
+          value: true
+      - name: "published"
+        field:
+          element: "hidden"
+          value: true
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          placeholder: "url van pagina"
+          type: "text"
+      - name: "redirect_from"
+        field:
+          element: "multiselect"
+          label: "Redirect_from"
+          placeholder: "vul url in"
+          alterable: "true"
+    _posts/themas/basisrust:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "class"
+        field:
+          element: "hidden"
+          value: "thema"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Tags"
+          help: "Thema en basisrust zijn de tags die nodig zijn."
+          placeholder: "kies tag"
+          alterable: "false"
+          options: 
+            - name: thema
+              value: thema
+            - name: basisrust
+              value: basisrust
+      - name: "noindex"
+        field:
+          element: "checkbox"
+          label: "Voorkom dat google pagina indexeert"
+          help: "Als ingeschakeld wordt de pagina niet gevonden in zoekmachines."
+          value: false
+      - name: "sitemap"
+        field:
+          element: "checkbox"
+          label: "Neem pagina op in sitemap (SEO)"
+          value: true
+      - name: "publish"
+        field:
+          element: "checkbox"
+          label: "Publiceer op website"
+          help: "Schakel uit om pagina niet te tonen in de website."
+          value: true
+      - name: "published"
+        field:
+          element: "hidden"
+          value: true
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          placeholder: "url van pagina"
+          type: "text"
+      - name: "redirect_from"
+        field:
+          element: "multiselect"
+          label: "Redirect_from"
+          placeholder: "vul url in"
+          alterable: "true"
+    _posts/themas/bewustzijn:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "class"
+        field:
+          element: "hidden"
+          value: "thema"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Tags"
+          help: "Thema en bewustzijn zijn de tags die nodig zijn."
+          placeholder: "kies tag"
+          alterable: "false"
+          options: 
+            - name: thema
+              value: thema
+            - name: bewustzijn
+              value: bewustzijn
+      - name: "noindex"
+        field:
+          element: "checkbox"
+          label: "Voorkom dat google pagina indexeert"
+          help: "Als ingeschakeld wordt de pagina niet gevonden in zoekmachines."
+          value: false
+      - name: "sitemap"
+        field:
+          element: "checkbox"
+          label: "Neem pagina op in sitemap (SEO)"
+          value: true
+      - name: "publish"
+        field:
+          element: "checkbox"
+          label: "Publiceer op website"
+          help: "Schakel uit om pagina niet te tonen in de website."
+          value: true
+      - name: "published"
+        field:
+          element: "hidden"
+          value: true
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          placeholder: "url van pagina"
+          type: "text"
+      - name: "redirect_from"
+        field:
+          element: "multiselect"
+          label: "Redirect_from"
+          placeholder: "vul url in"
+          alterable: "true"
+    _posts/themas/concentratie:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "class"
+        field:
+          element: "hidden"
+          value: "thema"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Tags"
+          help: "Thema en concentratie zijn de tags die nodig zijn."
+          placeholder: "kies tag"
+          alterable: "false"
+          options: 
+            - name: thema
+              value: thema
+            - name: concentratie
+              value: concentratie
+      - name: "noindex"
+        field:
+          element: "checkbox"
+          label: "Voorkom dat google pagina indexeert"
+          help: "Als ingeschakeld wordt de pagina niet gevonden in zoekmachines."
+          value: false
+      - name: "sitemap"
+        field:
+          element: "checkbox"
+          label: "Neem pagina op in sitemap (SEO)"
+          value: true
+      - name: "publish"
+        field:
+          element: "checkbox"
+          label: "Publiceer op website"
+          help: "Schakel uit om pagina niet te tonen in de website."
+          value: true
+      - name: "published"
+        field:
+          element: "hidden"
+          value: true
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          placeholder: "url van pagina"
+          type: "text"
+      - name: "redirect_from"
+        field:
+          element: "multiselect"
+          label: "Redirect_from"
+          placeholder: "vul url in"
+          alterable: "true"
+    _posts/themas/stress:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "class"
+        field:
+          element: "hidden"
+          value: "thema"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Tags"
+          help: "Thema en stress zijn de tags die nodig zijn."
+          placeholder: "kies tag"
+          alterable: "false"
+          options: 
+            - name: thema
+              value: thema
+            - name: stress
+              value: stress
+      - name: "noindex"
+        field:
+          element: "checkbox"
+          label: "Voorkom dat google pagina indexeert"
+          help: "Als ingeschakeld wordt de pagina niet gevonden in zoekmachines."
+          value: false
+      - name: "sitemap"
+        field:
+          element: "checkbox"
+          label: "Neem pagina op in sitemap (SEO)"
+          value: true
+      - name: "publish"
+        field:
+          element: "checkbox"
+          label: "Publiceer op website"
+          help: "Schakel uit om pagina niet te tonen in de website."
+          value: true
+      - name: "published"
+        field:
+          element: "hidden"
+          value: true
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          placeholder: "url van pagina"
+          type: "text"
+      - name: "redirect_from"
+        field:
+          element: "multiselect"
+          label: "Redirect_from"
+          placeholder: "vul url in"
+          alterable: "true"
+    _posts/trajecten:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "tags"
+        field:
+          element: "hidden"
+          value: "traject"
+      - name: "class"
+        field:
+          element: "hidden"
+          value: "traject"
+      - name: "sitemap"
+        field:
+          element: "hidden"
+          value: "false"
+      - name: "noindex"
+        field:
+          element: "checkbox"
+          label: "Voorkom dat google pagina indexeert"
+          help: "Als ingeschakeld wordt de pagina niet gevonden in zoekmachines."
+          value: false
+      - name: "sitemap"
+        field:
+          element: "checkbox"
+          label: "Neem pagina op in sitemap (SEO)"
+          value: true
+      - name: "publish"
+        field:
+          element: "checkbox"
+          label: "Publiceer op website"
+          help: "Schakel uit om pagina niet te tonen in de website."
+          value: true
+      - name: "published"
+        field:
+          element: "hidden"
+          value: true
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          placeholder: "url van pagina"
+          type: "text"
+      - name: "redirect_from"
+        field:
+          element: "multiselect"
+          label: "Redirect_from"
+          placeholder: "vul url in"
+          alterable: "true"
     _posts/workshops:
       - name: "layout"
         field:
@@ -36,9 +612,9 @@ prose:
         field:
           element: "multiselect"
           label: "Doelgroepen"
-          help: "Kies één of meerdere doelgroepen. Kies in ieder workshop."
+          help: "Kies één of meerdere doelgroepen. Kies in ieder geval tag 'workshop'."
           placeholder: "kies tag"
-          alterable: "true"
+          alterable: "false"
           options: 
             - name: workshop
               value: workshop
