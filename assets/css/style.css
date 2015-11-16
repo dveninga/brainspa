@@ -7976,7 +7976,7 @@ body {
   transition: all 300ms ease-in-out;
   font-weight: 600;
   padding: 12px 20px; }
-  .btn-primary:hover {
+  .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
     background-color: white;
     color: #3498db;
     border-color: #3498db; }
