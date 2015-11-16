@@ -3,7 +3,7 @@ layout: page
 title: Zakelijk
 active: zakelijk
 class: zakelijk
-banner: trein.jpg
+banner: 
 ---
 Voor bedrijven hebben wij een op maat gemaakt aanbod, waarbij werkgever en werknemers kunnen profiteren van speciale programma’s gericht op stressmanagement, peak performance, burnout behandeling en preventie.
 

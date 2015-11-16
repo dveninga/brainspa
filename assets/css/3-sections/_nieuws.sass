@@ -2,6 +2,11 @@
 	.content-wrapper
 		h2
 			margin-top: 0px
+			a
+				color: $text-color
+				+transition(all 300ms ease-in-out)
+				&:active, &:focus, &:hover
+					color: $brand
 
 .share
 	margin-top: 30px

@@ -19,8 +19,10 @@ body
 
 .btn-primary
   background-color: $accent
+  border-color: $accent
   +transition(all 300ms ease-in-out)
   font-weight: 600
+  padding: 12px 20px
 
   &:hover
     background-color: white
@@ -38,8 +40,10 @@ h1, h2, h3, h4
 
 .content
   padding: 15px 30px
+  border-left: 1px solid $brand
   @media screen and (max-width: $screen-xs-max)
     padding: 15px
+    border: none
 
   ul
     padding-left: 20px

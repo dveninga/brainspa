@@ -3,6 +3,8 @@ layout: workshop
 title: Opleiding neurofeedback en (lichaams)bewustzijn
 tags:
  - workshop
+ - voor-jou
+ - zakelijk
 parent: workshop
 class: workshop
 permalink: opleiding-neurofeedback-en-lichaamsbewustzijn

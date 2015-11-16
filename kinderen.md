@@ -3,7 +3,7 @@ layout: page
 title: Kinderen
 active: kinderen
 class: kinderen
-banner: kinderen.jpg
+banner: contact.jpg
 ---
 Als je kind niet lekker in zijn/haar vel zit, als het vastloopt op school, als gedragsproblemen of emoties voortdurend opspelen, dan heeft dit  impact op het hele gezin. Je kind heeft vaak nog niet het bewustzijn om hier zelf uit te komen en als ouder weet je soms ook even niet meer hoe verder.
 
