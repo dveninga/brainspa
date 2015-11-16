@@ -8071,6 +8071,12 @@ section.contact {
 
 body.contact .container-fluid .content {
   border: none; }
+  body.contact .container-fluid .content.maps {
+    margin-bottom: 30px; }
+    @media screen and (max-width: 767px) {
+      body.contact .container-fluid .content.maps {
+        margin-top: 30px;
+        margin-bottom: 15px; } }
 
 ul.adres li:nth-child(1) {
   font-weight: 800; }
@@ -8087,6 +8093,9 @@ ul.adres a {
 
 @media screen and (max-width: 767px) {
   section.contact .container {
+    text-align: center; }
+
+  body.contact ul.adres li {
     text-align: center; } }
 section.doelgroepen .flipbox-container, .row.doelgroepen .flipbox-container {
   height: 250px;

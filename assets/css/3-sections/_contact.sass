@@ -7,7 +7,11 @@ body.contact
   .container-fluid
     .content
       border: none
-
+      &.maps
+        margin-bottom: 30px
+        @media screen and (max-width: $screen-xs-max)
+          margin-top: 30px
+          margin-bottom: 15px
 ul.adres
 
   li:nth-child(1)
@@ -26,3 +30,8 @@ ul.adres
   section.contact
     .container
       text-align: center
+
+  body.contact
+    ul.adres
+      li
+        text-align: center
