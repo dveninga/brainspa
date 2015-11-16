@@ -7,6 +7,6 @@ tags:
 permalink: ives-prgomet
 sitemap: false
 ---
-*Collega's over Ives: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor vel architecto,*
+*Collega's over Ives: "Diepzinnig, excentriek, zorgzaam, dynamisch ..."*
 
-Diepzinnig, excentriek, zorgzaam, dynamisch Ives is een van onze specialisten in neurofeedback, biofeedback en QEEG analyse.
+Ives is een van onze specialisten in neurofeedback, biofeedback en QEEG analyse.

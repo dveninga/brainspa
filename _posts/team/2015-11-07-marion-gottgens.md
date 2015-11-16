@@ -7,6 +7,6 @@ tags:
 permalink: marion-gottgens
 sitemap: false
 ---
-*Collega's over Marion: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor vel architecto,*
+*Collega's over Marion: "Helder, consciëntieus, rustig, behulpzaam ..."*
 
-Helder, consciëntieus, rustig, behulpzaam Marion is een van onze specialisten in neurofeedback, biofeedback en QEEG analyse.
+Marion is een van onze specialisten in neurofeedback, biofeedback en QEEG analyse.

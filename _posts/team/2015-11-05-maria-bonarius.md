@@ -7,6 +7,6 @@ tags:
 permalink: maria-bonarius
 sitemap: false
 ---
-*Collega's over Maria: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor vel architecto,*
+*Collega's over Maria: "Toegewijd, aandachtig, zorgvuldig, bedachtzaam ..."*
 
-Toegewijd, aandachtig, zorgvuldig, bedachtzaam Maria is onze biofeedbackspecialist en coach in The Work.
+Maria is onze biofeedbackspecialist en coach in The Work.
