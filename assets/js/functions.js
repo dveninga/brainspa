@@ -137,7 +137,7 @@ $(function() {
 });
 
 function marktable() {
-    $contentTable = $('.page-content .column2 table');
+    $contentTable = $('.content table');
     $contentUl = $('body.lijst .page-content .column2 ul');
 
     if ($contentTable.length) {

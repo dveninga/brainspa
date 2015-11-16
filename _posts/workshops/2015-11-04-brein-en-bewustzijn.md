@@ -21,3 +21,9 @@ Wat komt er aan bod?
     * Neurofeedback
     * Biofeedback (o.a. hartritme training, oefening van ademhaling)
     * Mindfulness
+
+##Prijs
+
+|prijs|€ 175,00|
+|duur|1 dag|
+|aantal deelnemers|geen maximum|
