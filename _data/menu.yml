@@ -15,6 +15,7 @@ level1:
       - title: algemene informatie
         url: /algemene-informatie
         class: algemene-informatie
+        publish: false
   - title: onze aanpak
     url: /onze-aanpak
     class: onze-aanpak
