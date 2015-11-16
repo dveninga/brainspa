@@ -8186,6 +8186,8 @@ section.fasen {
     margin-bottom: 15px; }
   section.fasen .content {
     border: none; }
+    section.fasen .content h3 {
+      font-weight: 700; }
   section.fasen .content-wrapper {
     padding: 30px; }
     @media screen and (max-width: 767px) {
