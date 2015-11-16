@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 'Fase 2: Intensieve training'
-icon: play-circle
+icon: icon-fase-2
 class: fase
 tags:
  - fase

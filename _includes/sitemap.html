@@ -2,14 +2,21 @@
 {% for menu in site.data.menu.level1 %}
 	{% if menu.publish != false %}
 	<li>
-		<a href="{{menu.url}}">{{menu.title}}</a>
-		{% if menu.level2.size > 0 %}
+		<a href="{{site.baseurl}}{{menu.url}}">{{menu.title}}</a>
+		{% if menu.level2.size > 0  or menu.class == 'trainingen-en-workshops' %}
 		<ul class="level2">
 			{% for submenu in menu.level2 %}
 			{% if submenu.publish != false %}
-			<li><a href="{{submenu.url}}">{{submenu.title}}</a></li>
+			<li><a href="{{menu.url}}{{submenu.url}}">{{submenu.title}}</a></li>
 			{% endif %}
 			{% endfor %}
+			{% if menu.class == 'trainingen-en-workshops' %}
+			{% for post in site.tags['workshop'] %}
+			{% if post.publish != false %}
+			<li><a href="{{post.url}}">{{post.title}}</a></li>
+			{% endif %}
+			{% endfor %}
+			{% endif %}
 		</ul>
 		{% endif %}
 	</li>

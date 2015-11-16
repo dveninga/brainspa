@@ -8,22 +8,9 @@
 # locatie
 # agenda (optioneel, gebruik agenda: verberg om de opleiding niet te tonen op de pagina agenda)
 
-- datum: 14-01-2015
-  titel: Workshop het Kinderbrein
-  locatie: Zutphen
-  duur: 09:00 - 13:00 uur
-
-- datum: 28-01-2016
-  titel: Brein & Bewustzijn
-  locatie: Zutphen
-  duur: 1 dag
-
-- datum: 28-01-2015
-  titel: Brein & Bewustzijn
-  locatie: Zutphen
-  duur: 1 dag
-
-- datum: [04-02-2016,05-02-2016]
+- datum:
+    - 04-02-2016
+    - 05-02-2016
   titel: Opleiding neurofeedback en (lichaams)bewustzijn
   locatie: Zutphen
   duur: 4 dagen (2x2)
@@ -31,3 +18,22 @@
   titel: Opleiding neurofeedback en (lichaams)bewustzijn
   locatie: Zutphen
   duur: 4 dagen (2x2)
+
+- datum: 28-01-2016
+  titel: Brein & Bewustzijn
+  locatie: Zutphen
+  duur: 1 dag
+
+- datum: 14-01-2016
+  titel: Workshop het Kinderbrein
+  locatie: Zutphen
+  duur: halve dag
+  tijd: 09:00 - 13:00 uur
+
+- datum: 21-01-2016
+  titel: Peak Performance & Sustainability
+  locatie: Zutphen
+  duur: 1 dag
+  tijd: 09:00 - 17:00 uur
+
+

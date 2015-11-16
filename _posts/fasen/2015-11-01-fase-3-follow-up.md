@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 'Fase 3: Follow up'
-icon: arrows-alt
+icon: icon-fase-3
 class: fase
 tags:
  - fase

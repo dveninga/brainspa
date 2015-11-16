@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 'Fase 1: Analyse'
-icon: info-circle
+icon: icon-fase-1
 class: fase
 tags:
  - fase

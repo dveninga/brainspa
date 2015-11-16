@@ -2,39 +2,42 @@
     {% assign curDate = site.time | date: '%s' %}
     {% assign prevCount = 0 %}
     {% assign count = 0 %}
+    {% assign globalCount = 0 %}
+
     {% for item in site.data.agenda %}
     {% assign pageTitle = {{page.title}} %}
     {% if item.titel == pageTitle %}
     {% assign count = count | plus: 1 %}
     {% for date in item.datum %}
-    {% assign postdate = date | date: '%s' %}
-    {% if postdate >= curDate and count != prevCount %}
-    <div class="agenda-item col-sm-12">
-      <div class="row">
-        <div class="col-md-12">
-          <h3>{{item.titel}}</h3>
+      {% assign postdate = date | date: '%s' %}
+      {% if postdate >= curDate and count != prevCount %}
+      <div class="agenda-item col-sm-12">
+        <div class="row">
+          <div class="col-md-12">
+            <h3>{{item.titel}}</h3>
+          </div>
         </div>
+        <div class="row">
+          <div class="col-md-8">
+            <ul class="list-unstyled">
+              <li>{% for date in item.datum %}<i class="fa fa-calendar"></i> <span class="date">{{date}}</span>{% endfor %}</li>
+              <li><i class="fa fa-clock-o"></i> {% if item.tijd != null%}{{item.tijd}}{% else %} 09:30 - 16:30 uur{% endif %}{% if item.duur != null %}, {{item.duur}}{%endif%}</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <a href="#" class="btn btn-primary subscribe" title="{{item.titel}}" data-title="{{item.titel}}" data-date="{% assign countDate = 0 %}{% for date in item.datum %}{% assign countDate = countDate | plus: 1%}{% if countDate > 1 %} + {% endif %}{{date}}{% endfor %}">inschrijven</a>
+          </div>
+        </div>      
       </div>
-      <div class="row">
-        <div class="col-md-8">
-          <ul class="list-unstyled">
-            <li>{% for date in item.datum %}<i class="fa fa-calendar"></i> <span class="date">{{date}}</span>{% endfor %}</li>
-            <li><i class="fa fa-clock-o"></i> {% if item.tijd != null%}{{item.tijd}}{% else %} 09:30 - 16:30 uur{% endif %}{% if item.duur != null %}, {{item.duur}}{%endif%}</li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <a href="#" class="btn btn-primary subscribe" title="{{item.titel}}" data-title="{{item.titel}}" data-date="{% assign countDate = 0 %}{% for date in item.datum %}{% assign countDate = countDate | plus: 1%}{% if countDate > 1 %} + {% endif %}{{date}}{% endfor %}">inschrijven</a>
-        </div>
-      </div>      
-    </div>
-    {% assign prevCount = count %}
-    {% else %}
-    {% assign count = 0 %}
-    {% endif %}
+      {% assign prevCount = count %}
+      {% assign globalCount = 1 %}
+      {% else %}
+      {% assign count = 0 %}
+      {% endif %}
     {% endfor %}
     {% endif %}
     {% endfor %}
-    {% if count == 0 %}
+    {% if count == 0 and globalCount != 1 %}
     <div class="agenda-item col-sm-12">
       <div class="row">
         <div class="col-md-12"><h3>{{page.title}}</a></h3></div>
