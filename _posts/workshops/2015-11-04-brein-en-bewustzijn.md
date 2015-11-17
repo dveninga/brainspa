@@ -1,13 +1,19 @@
 ---
-layout: workshop
-title: Brein & Bewustzijn
-tags:
- - workshop
- - voor-jou
-parent: workshop
+published: true
 class: workshop
-permalink: brein-en-bewustzijn
+parent: workshop
+layout: workshop
+title: "Brein & Bewustzijn"
+tags: 
+  - workshop
+  - "voor-jou"
+permalink: "brein-en-bewustzijn"
+noindex: false
+sitemap: true
+publish: true
+redirect_from: null
 ---
+
 Een workshop voor jou, om je bewust te worden van je brein en het (lichaams)bewustzijn te stimuleren. 
 
 Of je nou worstelt met slaapproblemen, een depressie, een burnout, chaotisch zijn, perfectionisme, rigiditeit, hoogsensitiviteit, overprikkeling of gewoon enorm geboeid bent door de werking van het brein en/of bewustzijn, deze workshop geeft wetenschappelijke inzichten en praktische tools om je vrij te maken van ongewenste breinmechanismen en je (lichaams)bewustzijn te versterken.
@@ -24,6 +30,6 @@ Wat komt er aan bod?
 
 ##Prijs
 
-|prijs|€ 175,00|
+|prijs|€ 275,00|
 |duur|1 dag|
 |aantal deelnemers|geen maximum|
