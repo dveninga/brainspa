@@ -8,9 +8,9 @@
     {% assign pageTitle = {{page.title}} %}
     {% if item.titel == pageTitle %}
     {% assign count = count | plus: 1 %}
-    {% for date in item.datum %}
+    {% for date in item.datum | limit: 1 %}
       {% assign postdate = date | date: '%s' %}
-      {% if postdate >= curDate and count != prevCount %}
+      {% if postdate >= curDate %}
       <div class="agenda-item col-sm-12">
         <div class="row">
           <div class="col-md-12">
