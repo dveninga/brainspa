@@ -1,11 +1,17 @@
 <footer class="container-fluid">
   <div class="container">
     <div class="row">
-      <div class="col-sm-12">
+      <div class="col-sm-6">
         <ul class="list-inline">
           {% for social in site.data.socials %}
           <li><a href="{{social.url}}"><i class="fa fa-{{social.icon}}"></i>{{social.title}}</a></li>
           {% endfor %}
+        </ul>
+      </div>
+      <div class="col-sm-6">
+        <ul class="list-inline colofon">
+          <li><small>ontwerp <a href="http://hvdh.nl" target="external_link">hvdh</a></small></li>
+          <li><small>realisatie <a href="http://publiceervoormij.nl" target="external_link">publiceervoormij.nl</a></small></li>
         </ul>
       </div>
     </div>

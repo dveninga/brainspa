@@ -8233,6 +8233,13 @@ footer {
       footer ul li a:hover {
         text-decoration: none;
         color: #9d9d9d; }
+  footer .colofon {
+    text-align: right; }
+    @media screen and (max-width: 767px) {
+      footer .colofon {
+        text-align: center; } }
+    footer .colofon small {
+      color: #b9b9a7; }
 
 header.container-fluid {
   border-bottom: 1px solid #b9b9a7;
@@ -8450,7 +8457,7 @@ form {
 
 #goToTop {
   position: fixed;
-  bottom: 20px;
+  bottom: 60px;
   right: 20px;
   padding: 5px;
   display: none;

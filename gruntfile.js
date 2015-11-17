@@ -6,6 +6,12 @@ module.exports = function(grunt) {
                     'assets/js/jquery-1.11.3.min.js',
                     'assets/js/bootstrap.min.js',
                     'assets/js/moment-with-langs.min.js',
+                    'assets/js/jquery.validate.min.js',
+                    'assets/js/jquery.sharrre.min.js',
+                    'assets/js/messages_nl.js',
+                    'assets/js/firebase.js',
+                    'assets/js/agenda.js',
+                    'assets/js/formulieren.js',
                     'assets/js/functions.js'
                 ],
                 dest: 'build/js/scripts.js',
