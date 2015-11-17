@@ -127,7 +127,6 @@ $(function() {
 
     function mainNav() {
         var top = (document.documentElement && document.documentElement.scrollTop) || document.body.scrollTop;
-        console.log($header.height(), top);
         if (top >= ($header.height() + $navbar.height())) {
             $navbar.addClass('navbar-fixed-top');
         } else {

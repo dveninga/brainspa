@@ -107,7 +107,7 @@
 
             var training = $this.find("input[name='WORKSHOP']").val(),
                 date = $this.find("input[name='DATE']").val(),
-                salutation = $this.find("input[name='SALUTATION']:checked").val(),
+                salutation = salutation === undefined ? '' : $this.find("input[name='SALUTATION']:checked").val(),
                 fname = $this.find("input[name='FIRST_NAME']").val(),
                 lname = $this.find("input[name='LAST_NAME']").val(),
                 organisation = $this.find("input[name='ORGANISATION_NAME']").val(),
