@@ -4,7 +4,7 @@
 # titel (de titel van de opleiding: opgelet: EXACT dezelfde naam als de titel van de workshop)
 # subtitel (wordt alleen getoond op de pagina agenda)
 # duur (optioneel, bijvoorbeeld: 2 dagen)
-# tijd (optioneel, als geen tijd wordt ingevuld, zal '09:30 - 16:30 uur' vermeld worden)
+# tijd (optioneel, als geen tijd wordt ingevuld, zal '09:00 - 17:00 uur' vermeld worden)
 # locatie
 # agenda (optioneel, gebruik agenda: verberg om de opleiding niet te tonen op de pagina agenda)
 
