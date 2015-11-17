@@ -1,12 +1,12 @@
 level1:
-  - title: home
+  - title: Home
     url: /
     class: home
-  - title: over ons
+  - title: Over ons
     url: /over-ons
     class: over-ons
     level2:
-      - title: wie we zijn
+      - title: Wie we zijn
         url: /wie-we-zijn
         class: wie-we-zijn
       - title: praktische informatie
@@ -16,64 +16,64 @@ level1:
         url: /algemene-informatie
         class: algemene-informatie
         publish: false
-  - title: onze aanpak
+  - title: Onze aanpak
     url: /onze-aanpak
     class: onze-aanpak
     level2:
-      - title: methoden
+      - title: Methoden
         url: /methoden
         class: methoden
-      - title: proces
+      - title: Proces
         url: /proces
         class: proces
-  - title: voor jou
+  - title: Voor jou
     url: /voor-jou
     class: voor-jou
     level2:
-      - title: analyse
+      - title: Analyse
         url: /analyse
         class: analyse
-      - title: intensive
+      - title: Intensive
         url: /intensive
         class: intensive
-      - title: follow up
+      - title: Follow up
         url: /follow-up
         class: follow-up
-  - title: zakelijk
+  - title: Zakelijk
     url: /zakelijk
     class: zakelijk
     level2:
-      - title: analyse
+      - title: Analyse
         url: /analyse
         class: analyse
-      - title: preventie
+      - title: Preventie
         url: /preventie
         class: preventie
-      - title: trajecten
+      - title: Trajecten
         url: /trajecten
         class: trajecten
-  - title: kinderen
+  - title: Kinderen
     url: /kinderen
     class: kinderen
     level2:
-      - title: adoptie
+      - title: Adoptie
         url: /adoptie
         class: adoptie
-      - title: analyse
+      - title: Analyse
         url: /analyse
         class: analyse
-      - title: intensive
+      - title: Intensive
         url: /intensive
         class: intensive
-      - title: follow up
+      - title: Follow up
         url: /follow-up
         class: follow-up
   - title: Trainingen & workshops
     url: /trainingen-en-workshops
     class: workshop
-  - title: nieuws
+  - title: Nieuws
     url: /nieuws
     class: nieuws
-  - title: contact
+  - title: Contact
     url: /contact
     class: contact
