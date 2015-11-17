@@ -20,7 +20,7 @@ gems:
 prose:
   ignore: ['.gitignore', '_config.yml', 'CNAME', 'gruntfile.js', 'forms.yml', 'package.json', '_includes', '_layouts', 'build', 'links.jsonp']
   siteurl: "http://www.brainspa.nl"
-  relativeLinks: 'http://brainspa.publiceervoormij.nl/links.jsonp'
+  relativeLinks: 'http://www.brainspa.nl/links.jsonp'
   media: "/assets/img/"
   metadata:
     _posts/doelgroepen:
