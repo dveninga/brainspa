@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Trainingen & workshops
-active: trainingen-en-workshops
+active: workshop
 class: workshop
 banner: 
 ---

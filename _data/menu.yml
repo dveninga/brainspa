@@ -68,9 +68,9 @@ level1:
       - title: follow up
         url: /follow-up
         class: follow-up
-  - title: trainingen & workshops
+  - title: Trainingen & workshops
     url: /trainingen-en-workshops
-    class: trainingen-en-workshops
+    class: workshop
   - title: nieuws
     url: /nieuws
     class: nieuws
