@@ -3,5 +3,6 @@
 	<li><a href="/trainingen-en-workshops">Trainingen & workshops</a></li>
 	{% endif %}
 	{% for post in site.tags['workshop'] %}
-	<li {% if page.url == post.url %}class="active"{% endif %}><a href="{{post.url}}" title="ga naar {{post.title}}">{{post.title}}</a></li>{% endfor %}
+	{% if post.publish != false %}
+	<li {% if page.url == post.url %}class="active"{% endif %}><a href="{{post.url}}" title="ga naar {{post.title}}">{{post.title}}</a></li>{%endif%}{% endfor %}
 </ul>
