@@ -11,12 +11,11 @@
 - datum:
     - 04-02-2016
     - 05-02-2016
+    - 18-02-2016
+    - 19-02-2016
   titel: Opleiding neurofeedback en (lichaams)bewustzijn
   locatie: Zutphen
-  duur: 4 dagen (2x2)
-- datum: [18-02-2016,19-02-2016]
-  titel: Opleiding neurofeedback en (lichaams)bewustzijn
-  locatie: Zutphen
+  tijd: 09:00 - 17:00 uur
   duur: 4 dagen (2x2)
 
 - datum: 28-01-2016
@@ -35,5 +34,3 @@
   locatie: Zutphen
   duur: 1 dag
   tijd: 09:00 - 17:00 uur
-
-
