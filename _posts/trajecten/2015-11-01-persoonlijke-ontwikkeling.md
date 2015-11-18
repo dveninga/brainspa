@@ -23,19 +23,19 @@ Het geeft je de ervaring en adviezen voor wat jij kunt doen om je breinconditie,
 
 Tijdsinvestering
 1 dag
-- intakegesprek
-- screening van brein- en stressmechanismen
-- inzicht in eigen brein-dynamiek en stressmechanismen
-- training neurofeedback en biofeedback
-- doel: in optimale flow komen waarbij concentratie, ontspanning, 
+* intakegesprek
+* screening van brein- en stressmechanismen
+* inzicht in eigen brein-dynamiek en stressmechanismen
+* training neurofeedback en biofeedback
+* doel: in optimale flow komen waarbij concentratie, ontspanning, 
 alertheid, helderheid van geest en herstel van energie samengaan
-- Rapportage met inzichten en adviezen volgende ochtend in mailbox
+* Rapportage met inzichten en adviezen volgende ochtend in mailbox
 
 Werkwijze:
 Wij gebruiken de zeer geavanceerde apparatuur van Mind Media.
-- QEEG-analyse: op 21 lokaties wordt de hersenactiviteit gemeten onder verschillende condities 
-- Stressprofiel: tegelijkertijd worden ademhaling, hartslag, huidgeleiding, spierspanning en handtemperatuur gemeten
-- Neurofeedback; real-time feedback over je eigen hersenactiviteit
-- Biofeedback; real-time feedback over o.a. ademhaling, hartcoherentie
-- Psyco educatie en coaching
+* QEEG-analyse: op 21 lokaties wordt de hersenactiviteit gemeten onder verschillende condities 
+* Stressprofiel: tegelijkertijd worden ademhaling, hartslag, huidgeleiding, spierspanning en handtemperatuur gemeten
+* Neurofeedback; real-time feedback over je eigen hersenactiviteit
+* Biofeedback; real-time feedback over o.a. ademhaling, hartcoherentie
+* Psyco educatie en coaching
 
