@@ -27,7 +27,8 @@ redirect_from: null
 
 ##Tijdsinvestering
 2 dagen
-##Dag 1	
+
+Dag 1	
 
 - intakegesprek
 - screening van brein- en stressmechanismen
