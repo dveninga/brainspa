@@ -8,10 +8,10 @@ layout: page
 title: Preventie
 noindex: false
 publish: true
-permalink: ""
-redirect_from: 
-  - "null"
+permalink: /preventie
+redirect_from: null
 ---
+
 
 
 
