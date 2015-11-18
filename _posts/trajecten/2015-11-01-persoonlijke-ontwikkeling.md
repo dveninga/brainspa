@@ -17,7 +17,7 @@ redirect_from: null
 Voor wie? 
 Voor werkgevers en werknemers die in het kader van duurzame inzetbaarheid preventief willen screenen op breinconditie, lichamelijke veerkracht en stress-herstel mogelijkheden. 
 
-	Waarom?
+Waarom?
 Het geeft inzicht in waar je nu staat met betrekking tot breinconditie, concentratie, informatieverwerking, belastbaarheid, stress-gevoeligheid en lichamelijke veerkracht. 
 Het geeft je de ervaring en adviezen voor wat jij kunt doen om je breinconditie, veerkracht, ontspanning en vitaliteit op korte- en lange termijn te verbeteren en/of te waarborgen.
 
@@ -31,7 +31,7 @@ Tijdsinvestering
 alertheid, helderheid van geest en herstel van energie samengaan
 - Rapportage met inzichten en adviezen volgende ochtend in mailbox
 
-	Werkwijze:
+Werkwijze:
 Wij gebruiken de zeer geavanceerde apparatuur van Mind Media.
 - QEEG-analyse: op 21 lokaties wordt de hersenactiviteit gemeten onder verschillende condities 
 - Stressprofiel: tegelijkertijd worden ademhaling, hartslag, huidgeleiding, spierspanning en handtemperatuur gemeten
