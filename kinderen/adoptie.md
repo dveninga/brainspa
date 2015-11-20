@@ -4,6 +4,7 @@ title: Adoptie en hechtingsproblematiek
 active: adoptie
 class: adoptie
 parent: kinderen
+banner: kinderen.jpg
 ---
 Bij BrainSpa zien we veel kinderen en adolescenten met een adoptieachtergrond en hechtingsproblematiek. Door onze expertise en ervaring op dit gebied, kunnen we snel schakelen als het gaat om adoptiespecifieke aandachtsgebieden. Ieder kind is uniek en dat geldt ook voor adoptiekinderen. Daarom maken wij een goede afstemming met het kind, de ouders en school. Het kind wordt geholpen in het doormaken van een goede ontwikkeling door meer grip te krijgen op concentratie, angst, ontspanning, herstel van stress, ontspanning en aanpak van schooltaken. De basisrust wordt versterkt, de innerlijke stabiliteit verstevigd en het concentratievermogen getraind. Ouders en school worden ondersteund in het creëren van de randvoorwaarden die nodig zijn voor het kind om tot rust en leren te komen.
 

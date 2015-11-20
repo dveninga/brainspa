@@ -4,6 +4,7 @@ title: Preventie
 active: preventie
 class: Preventie
 parent: zakelijk
+banner: zakelijk.jpg
 ---
 De baan voor het leven bestaat niet meer.  Arbeidsmobiliteit speelt een steeds grotere rol in de realiteit van werkgevers en werknemers. Dit vraagt van beiden partijen een andere houding.
 Werkgevers moeten meer zorg  gaan dragen voor het algehele welzijn van de werknemers en dekkende programma’s bieden om arbeid’s mobiliteit te bevorderen.

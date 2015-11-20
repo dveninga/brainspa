@@ -15,8 +15,10 @@ $(function() {
         currentBodyClass = $body.attr('class'),
         pageTitle = $('h1.pageTitle').html(),
         $navbar = $('.navbar.navbar-static-top'),
-        $header = $('header');
+        $header = $('header'),
+        $banner = $('.container-fluid.banner, .home header.container-fluid');
     smoothScroll(1000);
+    $banner.addClass('on');
     toTop(mobile);
     marktable();
     datify();

@@ -4,6 +4,7 @@ title: Intensieve training
 active: intensive
 class: intensive
 parent: voor-jou
+banner: contact.jpg
 ---
 Wij hebben veel kennis en ervaring omtrent behandeling/training van mensen met onder andere:
 

@@ -4,6 +4,7 @@ title: Proces
 active: proces
 class: proces
 parent: onze-aanpak
+banner: kaars.jpg
 ---
 Een traject bij BrainSpa begint met een persoonlijke afstemming en analyse van het brein en lichamelijke stressmechanismen. Daarna volgt een intensieve training van 4 dagen, waarbij in korte periode wordt gewerkt aan een shift in de werking van het brein, stress-herstelmechanismen van het lichaam en de mindset. Hierna volgt een persoonlijk afgestemd follow up traject voor begeleiding in het doorvoeren van het geleerde in het dagelijks leven. Dus het proces is als volgt:
 

@@ -1,16 +1,36 @@
 header.container-fluid
-  border-bottom: 1px solid $brand
+  position: relative
   padding-top: 30px
   padding-bottom: 30px
   height: 400px
-  background:
-    image: url('../../assets/img/Home121.jpg')
-    size: cover
-    position: center
-    background-attachment: scroll
-    repeat: no-repeat
+  &:before
+    content: ""
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-color: transparent
+    +linear-gradient(to bottom, $brand, $brand)
+    z-index: 2
+    opacity: 0.65
+  .display
+    height: 100%
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    background:
+      image: url('../../assets/img/Home121.jpg')
+      size: cover
+      position: center
+      attachment: scroll
+      repeat: no-repeat
   h1
     margin-bottom: 30px
+    color: white
+    position: relative
+    z-index: 3
     @media screen and (max-width: $screen-xs-max)
       margin-top: 30px
       font-size: 24px
@@ -21,5 +41,23 @@ header.container-fluid
     @media screen and (min-width: $screen-lg-min)
       margin-top: 80px
   .lead
+    color: white
+    position: relative
+    z-index: 3
     @media screen and (max-width: $screen-xs-max)
       font-size: 15px
+  &:after
+    content: ""
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-color: transparent
+    +linear-gradient(to bottom, $brand, $brand)
+    z-index: 2
+    opacity: 1
+    +transition(opacity 300ms linear)
+  &.on
+    &:after
+      opacity: 0

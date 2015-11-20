@@ -1,7 +1,40 @@
 .container-fluid.banner
-	border-bottom: 1px solid $brand
-	background:
-		color: $brand
-		size: cover
-		position: center
-	height: 200px
+  height: 200px
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-color: transparent
+    +linear-gradient(to bottom, $brand, $brand)
+    z-index: 2
+    opacity: 0.65
+  .display
+    height: 100%
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    background:
+      color: $brand
+      size: cover
+      position: center
+      repeat: no-repeat
+  &:after
+    content: ""
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-color: transparent
+    +linear-gradient(to bottom, $brand, $brand)
+    z-index: 2
+    opacity: 1
+    +transition(opacity 300ms linear)
+  &.on
+    &:after
+      opacity: 0

@@ -4,6 +4,7 @@ title: Praktische informatie
 active: praktische-informatie
 class: praktische-informatie
 parent: over-ons
+banner: contact.jpg
 ---
 ##Openingstijden
 

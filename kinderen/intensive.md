@@ -4,6 +4,7 @@ title: Intensieve training
 active: intensive
 class: intensive
 parent: kinderen
+banner: kinderen.jpg
 ---
 Wij hebben veel kennis en ervaring omtrent behandeling/training van kinderen met onder andere:
 

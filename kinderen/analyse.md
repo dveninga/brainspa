@@ -4,6 +4,7 @@ title: Analyse
 active: analyse
 class: analyse
 parent: kinderen
+banner: kinderen.jpg
 ---
 De eerste stap naar meer inzicht in wat er nodig is om je zoon of dochter verder te helpen in zijn/haar ontwikkeling is een analyse. Deze wordt uitgevoerd door een specialistisch kinderteam bestaande uit een een kinderneuropsycholoog/Gezondheidszorgpsycholoog BIG en een pedagogisch begeleider/onderwijsdeskundige.
 

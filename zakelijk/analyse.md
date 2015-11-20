@@ -5,6 +5,7 @@ active: analyse
 class: analyse
 parent: zakelijk
 published: true
+banner: zakelijk.jpg
 ---
 
 Voor werknemers op CEO niveau tot ondersteunend personeel is het waardevol om te investeren in een meting van breinconditie en stress-herstelmechanismen. Het geeft direct inzicht in unieke kwaliteiten met betrekking tot informatieverwerking en laat ook zien hoe opbouw van stress/spanning plaatsvindt en kan worden voorkomen. De neurofysiologische meting geeft een helder beeld van onder andere:

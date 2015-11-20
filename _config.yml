@@ -7,7 +7,7 @@ markdown: kramdown
 port: 4000
 permalink: pretty
 
-dev: n
+dev: y
 
 exclude: ['CNAME', 'README.md', 'PSD', 'node_modules', 'package.json', 'gruntfile.js']
 

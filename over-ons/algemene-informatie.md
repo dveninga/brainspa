@@ -5,6 +5,7 @@ active: "algemene-informatie"
 class: "algemene-informatie"
 parent: "over-ons"
 published: true
+banner: contact.jpg
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam inventore non consequatur iste enim sequi accusantium dicta natus eius exercitationem soluta esse, eaque repellat, labore laboriosam cum obcaecati eum veritatis!

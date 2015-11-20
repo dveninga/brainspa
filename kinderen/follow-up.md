@@ -4,6 +4,7 @@ title: Follow up
 active: follow-up
 class: follow-up
 parent: kinderen
+banner: kinderen.jpg
 ---
 Na een intensieve training volgt de vertaalslag naar de dagelijkse realiteit. Onder begeleiding van het kinderteam wordt deze stap als volgt gemaakt:
 
