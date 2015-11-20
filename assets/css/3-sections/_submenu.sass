@@ -2,6 +2,22 @@
 	.nav-stacked
 		a:active, a:focus, a:hover
 			color: $activelink
+		> .nav-stacked
+			> .nav-stacked
+				a
+					&:before
+						content: "\f178"
+						font:
+							family: 'FontAwesome'
+							size: 16px
+						display: inline-block
+						color: tint($navbarlink,50%)
+						margin-right: 5px
+				.active
+					a
+						&:before
+							color: tint($text-color,40%)
+
 
 @media screen and (max-width: $screen-xs-max)
 	.menu-sidebar

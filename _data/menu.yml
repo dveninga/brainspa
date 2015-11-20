@@ -22,7 +22,7 @@ level1:
     level2:
       - title: Methoden
         url: /methoden
-        class: methoden
+        class: methode
       - title: Proces
         url: /proces
         class: proces
@@ -51,7 +51,7 @@ level1:
         class: preventie
       - title: Trajecten
         url: /trajecten
-        class: trajecten
+        class: traject
   - title: Kinderen
     url: /kinderen
     class: kinderen

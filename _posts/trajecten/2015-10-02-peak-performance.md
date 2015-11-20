@@ -3,16 +3,15 @@ published: true
 sitemap: false
 class: traject
 tags: 
-  - traject
+ - traject
 layout: page
 title: Peak performance
 noindex: false
 publish: true
-permalink: ""
-redirect_from: 
-  - "null"
+permalink: /zakelijk/trajecten/peak-performance
+parent: zakelijk
+banner: zakelijk.jpg
 ---
-
 
 ##Voor wie? 
 
@@ -27,16 +26,14 @@ redirect_from:
 - Je leert schakelen naar een optimale flow, waarbij je niet wordt afgeleid door gedachten of omgeving en waarbij je vanuit helderheid in denken beslissingen kunt nemen/handelen. 
 - Je krijgt een persoonlijk plan met inzichten en concrete adviezen om thuis/op het werk verder mee aan de slag te gaan.
 
-##Tijdsinvestering
-2 dagen
+**Tijdsinvestering:** 2 dagen
 
-Dag 1	
+##Dag 1	
 
 - intakegesprek
 - screening van brein- en stressmechanismen
 - inzicht in eigen brein-dynamiek en stressmechanismen
-- training naar optimale flow waarbij, concentratie, ontspanning, 
-alertheid, helderheid van geest en herstel van energie samengaan
+- training naar optimale flow waarbij, concentratie, ontspanning, alertheid, helderheid van geest en herstel van energie samengaan
 
 ##Dag 2
 
@@ -45,7 +42,7 @@ alertheid, helderheid van geest en herstel van energie samengaan
 - persoonlijk advies om hier thuis/op het werk mee aan de slag te kunnen gaan
 - Rapportage met kwaliteiten en adviezen op basis van dit traject.
 
-##Werkwijze:
+##Werkwijze
 
 Wij gebruiken de zeer geavanceerde apparatuur van Mind Media.
 

@@ -3,18 +3,17 @@ published: true
 sitemap: false
 class: traject
 tags: 
-  - traject
+ - traject
 layout: page
 title: "Human mobility & personal growth"
 noindex: false
 publish: true
-permalink: ""
-redirect_from: 
-  - "null"
+permalink: /zakelijk/trajecten/human-mobility-en-personal-growth
+parent: zakelijk
+banner: zakelijk.jpg
 ---
 
-
-##Individueel Traject
+> Individueel Traject
 
 ##Voor wie? 
 
@@ -32,18 +31,18 @@ redirect_from:
 - Lichamelijk wordt veerkracht, ontspanning, herstel van stress en opbouw van energie gestimuleerd, zodat je zelf grip krijgt op je stress-mechanismen.
 - Je krijgt een persoonlijk plan met inzichten en concrete adviezen om thuis/op het werk verder mee aan de slag te gaan.
 
-##Tijdsinvestering: 4 dagen
+**Tijdsinvestering:** 4 dagen
 
-4 dagen is er een combinatie van:
+4 dagen is een combinatie van:
 
 - intensieve training van je neurofysiologisch evenwicht; dat wil zeggen dat je met behulp van neurofeedback en biofeedback naar een goede lichamelijke en geestelijke balans wordt getraind, waarbij helderheid in denken, rust in emoties, optimale concentratie, focus en ontspanning samengaan. 
 - coaching; waarbij jouw belemmerende gedachten, emoties en reactiepatronen in kaart worden gebracht en van waaruit de bewegingsruimte wordt gezocht om met meer lucht, vrijheid, energie en zin de uitdagingen aan te gaan en verandering te bewerkstelligen. 
 
 Het gaat om een intensief en kort traject, afgestemd op persoonlijke leerdoelen en verspreid over 4 weken, waarbij de vertaalslag wordt gemaakt van het nieuwe neurofysiologisch evenwicht en de ruimte in het denken/voelen, naar de praktijk van alledag.
 
-Week 1: 2 dagen
-Week 2: 1 dag
-Week 4: 1 dag
+|weeknr|dagen|weeknr|dagen|weeknr|dagen|
+|----:|----|----:|----|----:|----|
+|Week 1:|2 dagen|Week 2:|1 dag|Week 4:|1 dag|
 	
 ##Werkwijze:
 

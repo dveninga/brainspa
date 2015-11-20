@@ -7,7 +7,16 @@
 		<ul class="level2">
 			{% for submenu in menu.level2 %}
 			{% if submenu.publish != false %}
-			<li><a href="{{menu.url}}{{submenu.url}}">{{submenu.title}}</a></li>
+			<li>
+				<a href="{{menu.url}}{{submenu.url}}">{{submenu.title}}</a>
+				<ul class="level3">
+				{% for post in site.tags[{{submenu.class}}] %}
+				{% if post.publish != false %}
+				<li {% if page.url == post.url %}class="active"{% endif %}><a href="{{post.url}}" title="ga naar {{post.title}}">{{post.title}}</a></li>
+				{%endif%}
+				{% endfor %}
+				</ul>
+			</li>
 			{% endif %}
 			{% endfor %}
 			{% if menu.class == 'workshop' %}

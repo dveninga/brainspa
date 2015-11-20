@@ -6,4 +6,3 @@ class: trajecten
 parent: zakelijk
 banner: zakelijk.jpg
 ---
-{% include trajecten.html %}

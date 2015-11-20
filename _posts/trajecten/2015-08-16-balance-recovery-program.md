@@ -2,17 +2,16 @@
 published: true
 sitemap: true
 class: traject
-tags: traject
+tags:
+ - traject
 layout: page
 noindex: false
 publish: true
-permalink: "balance-en-recovery-program"
-redirect_from: 
-  - "null"
+permalink: "/zakelijk/trajecten/balance-en-recovery-program"
 title: "Balance & Recovery program"
+parent: zakelijk
+banner: zakelijk.jpg
 ---
-
-
 
 ##Voor wie?
 
@@ -39,15 +38,16 @@ Het gaat om een combinatie van:
 
 Het gaat om intensief traject verspreid over 3 maanden om er zeker van te zijn dat een shift gemaakt wordt die geimplenteerd raakt in het dagelijkse leven en ook op de lange termijn wordt gewaarborgd.
 
-|Week 1: 2 dagen | Week 5: 1 dagdeel | Week 9:  2½ uur|
-|Week 2: 2 dagen | Week 6: 1 dagdeel | Week 10: 2 ½ uur|
-|Week 3: 1 dag | Week 7: 1 dagdeel | Week 11: 2 ½ uur|
-|Week 4: 1 dag | Week 8: 1 dagdeel | Week 12: 2 ½ uur|
+|weeknr|dagen|weeknr|dagen|weeknr|dagen|
+|----:|----|----:|----|----:|----|
+|Week 1:|2 dagen|Week 5:|1 dagdeel|Week 9:| 2½ uur|
+|Week 2:|2 dagen|Week 6:|1 dagdeel|Week 10:|2 ½ uur|
+|Week 3:|1 dag|Week 7:|1 dagdeel|Week 11:|2 ½ uur|
+|Week 4:|1 dag|Week 8:|1 dagdeel|Week 12:|2 ½ uur|
 
 ##Werkwijze
 
-* Wij gebruiken de zeer geavanceerde apparatuur van Mind Media.
-QEEG-analyse: op 21 lokaties wordt de hersenactiviteit gemeten
+* Wij gebruiken de zeer geavanceerde apparatuur van Mind Media. QEEG-analyse: op 21 lokaties wordt de hersenactiviteit gemeten
 * Stressprofiel: tegelijkertijd worden ademhaling, hartslag, huidgeleiding, spierspanning en handtemperatuur gemeten
 * Neurofeedback; real-time feedback over je eigen hersenactiviteit
 * Biofeedback; real-time feedback over o.a. ademhaling, hartcoherentie

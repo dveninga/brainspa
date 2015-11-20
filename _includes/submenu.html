@@ -7,7 +7,12 @@
 		<ul class="nav nav-pills nav-stacked">
 	{% for submenu in menu.level2 %}{% if submenu.publish != false %}
 		<li {% if page.active == submenu.class %}class="active"{% endif %}><a href="{{menu.url}}{{submenu.url}}" title="ga naar {{submenu.title}}">{{submenu.title}}</a></li>
-	{% endif %}
+		<ul class="nav nav-pills nav-stacked">
+		{% for post in site.tags[{{submenu.class}}] %}
+		{% if post.publish != false %}
+		<li {% if page.url == post.url %}class="active"{% endif %}><a href="{{post.url}}" title="ga naar {{post.title}}">{{post.title}}</a></li>{%endif%}{% endfor %}
+		</ul>
+		{% endif %}
 	{% endfor %}
 		</ul>
 	{% endif %}

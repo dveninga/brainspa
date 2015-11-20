@@ -10,7 +10,6 @@ permalink: "workshop-breinzaken"
 noindex: false
 sitemap: true
 publish: false
-redirect_from: null
 ---
 
 Een training voor jou en je organisatie om het beste uit jezelf te halen. Ieder mens heeft zijn eigen kwaliteiten en voorkeuren voor het verwerken van informatie. Daarbij zijn denken, gevoel, ratio, intuïtie en sensitiviteit meer of minder dominant. De unieke dynamiek van ieder individu is van waarde voor de organisatie en het kan leiden tot synergie wanneer goed ingezet.

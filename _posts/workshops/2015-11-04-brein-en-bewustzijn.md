@@ -11,7 +11,6 @@ permalink: "brein-en-bewustzijn"
 noindex: false
 sitemap: true
 publish: true
-redirect_from: null
 ---
 
 Een workshop voor jou, om je bewust te worden van je brein en het (lichaams)bewustzijn te stimuleren. 
