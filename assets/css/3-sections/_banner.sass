@@ -1,5 +1,7 @@
 .container-fluid.banner
   height: 200px
+  margin: 0
+  padding: 0
   position: relative
   &:before
     content: ""
@@ -9,9 +11,9 @@
     width: 100%
     height: 100%
     background-color: transparent
-    +linear-gradient(to bottom, $brand, $brand)
     z-index: 2
     opacity: 0.65
+    +linear-gradient(to bottom, $brand, $brand)
   .display
     height: 100%
     position: absolute
@@ -31,9 +33,9 @@
     width: 100%
     height: 100%
     background-color: transparent
-    +linear-gradient(to bottom, $brand, $brand)
     z-index: 2
     opacity: 1
+    +linear-gradient(to bottom, $brand, $brand)
     +transition(opacity 300ms linear)
   &.on
     &:after

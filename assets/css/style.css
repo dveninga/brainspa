@@ -8058,6 +8058,8 @@ p {
 
 .container-fluid.banner {
   height: 200px;
+  margin: 0;
+  padding: 0;
   position: relative; }
   .container-fluid.banner:before {
     content: "";
@@ -8067,11 +8069,11 @@ p {
     width: 100%;
     height: 100%;
     background-color: transparent;
+    z-index: 2;
+    opacity: 0.65;
     background-color: #b9b9a7;
     background-image: -webkit-linear-gradient(top, #b9b9a7, #b9b9a7);
-    background-image: linear-gradient(to bottom,#b9b9a7, #b9b9a7);
-    z-index: 2;
-    opacity: 0.65; }
+    background-image: linear-gradient(to bottom,#b9b9a7, #b9b9a7); }
   .container-fluid.banner .display {
     height: 100%;
     position: absolute;
@@ -8090,11 +8092,11 @@ p {
     width: 100%;
     height: 100%;
     background-color: transparent;
+    z-index: 2;
+    opacity: 1;
     background-color: #b9b9a7;
     background-image: -webkit-linear-gradient(top, #b9b9a7, #b9b9a7);
     background-image: linear-gradient(to bottom,#b9b9a7, #b9b9a7);
-    z-index: 2;
-    opacity: 1;
     -webkit-transition: opacity 300ms linear;
     -moz-transition: opacity 300ms linear;
     transition: opacity 300ms linear; }
