@@ -8292,6 +8292,10 @@ header.container-fluid {
   padding-top: 30px;
   padding-bottom: 30px;
   height: 400px; }
+  @media screen and (max-width: 767px) {
+    header.container-fluid {
+      padding: 0px;
+      margin: 0px; } }
   header.container-fluid:before {
     content: "";
     position: absolute;
@@ -8360,6 +8364,9 @@ header.container-fluid {
   header.container-fluid.on:after {
     opacity: 0; }
 
+@media screen and (max-width: 767px) {
+  header.container-fluid .container {
+    padding-top: 50px; } }
 @media screen and (max-width: 767px) {
   nav.navbar-wrapper {
     min-height: 50px; } }

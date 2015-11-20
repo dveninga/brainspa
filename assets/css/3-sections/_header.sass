@@ -2,6 +2,9 @@ header.container-fluid
   position: relative
   padding-top: 30px
   padding-bottom: 30px
+  @media screen and (max-width: $screen-xs-max)
+    padding: 0px
+    margin: 0px
   height: 400px
   &:before
     content: ""
@@ -61,3 +64,8 @@ header.container-fluid
   &.on
     &:after
       opacity: 0
+
+@media screen and (max-width: $screen-xs-max)
+  header.container-fluid
+    .container
+      padding-top: 50px
