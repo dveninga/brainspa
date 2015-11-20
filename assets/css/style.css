@@ -7997,6 +7997,8 @@ h1, h2, h3, h4 {
     .col-sm-9.content {
       padding: 15px;
       border: none; } }
+  .col-sm-9.content.team {
+    max-width: 100%; }
   .col-sm-9.content ul {
     padding-left: 20px; }
   .col-sm-9.content ul.adres {
