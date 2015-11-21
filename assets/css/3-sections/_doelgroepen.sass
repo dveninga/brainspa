@@ -8,6 +8,7 @@ section.doelgroepen, .row.doelgroepen
         display: none
         +transform(rotateY(180deg))
       .flipbox-back
+        opacity: 1
         display: block
         +transform(rotateX(0deg))
     h2
@@ -41,6 +42,8 @@ section.doelgroepen, .row.doelgroepen
     h2
       margin-top: 0px
   .flipbox-back
+    opacity: 0
+    +transition(all 300ms ease-in-out)
     +transform(rotateY(-180deg))
     h2
       margin-top: 30px

@@ -8155,6 +8155,7 @@ section.doelgroepen .flipbox-container, .row.doelgroepen .flipbox-container {
     -o-transform: rotateY(180deg);
     transform: rotateY(180deg); }
   section.doelgroepen .flipbox-container:hover .flipbox-back, .row.doelgroepen .flipbox-container:hover .flipbox-back {
+    opacity: 1;
     display: block;
     -webkit-transform: rotateX(0deg);
     -moz-transform: rotateX(0deg);
@@ -8212,6 +8213,10 @@ section.doelgroepen .flipbox-front, .row.doelgroepen .flipbox-front {
   section.doelgroepen .flipbox-front h2, .row.doelgroepen .flipbox-front h2 {
     margin-top: 0px; }
 section.doelgroepen .flipbox-back, .row.doelgroepen .flipbox-back {
+  opacity: 0;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
   -webkit-transform: rotateY(-180deg);
   -moz-transform: rotateY(-180deg);
   -ms-transform: rotateY(-180deg);
