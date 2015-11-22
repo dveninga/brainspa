@@ -8239,7 +8239,8 @@ section.doelgroepen .flipbox-back, .row.doelgroepen .flipbox-back {
     -moz-transform: rotateY(0deg);
     -ms-transform: rotateY(0deg);
     -o-transform: rotateY(0deg);
-    transform: rotateY(0deg); }
+    transform: rotateY(0deg);
+    opacity: 1; }
 
   .row.doelgroepen {
     padding-bottom: 30px; } }
