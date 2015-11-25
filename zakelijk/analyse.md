@@ -11,6 +11,7 @@ banner: zakelijk.jpg
 Voor een goed persoonlijk functioneren, maar ook voor een optimale hersenfunctie, is het van belang dat het autonoom zenuwstelsel in balans is. Het autonoom zenuwstelsel stuurt lichaamsfuncties aan die vanzelf gaan, zoals ademhaling, hartslag, bloeddruk, spijsvertering en het immuunsysteem. Bij spanning of langdurige stress raakt het evenwicht in het autonoom zenuwstelsel verstoord. Dit heeft op den duur negatieve gevolgen voor de lichamelijke en geestelijke conditie. Het is mogelijk om meer grip te krijgen op ontspanning van het lichaam en opbouw van energie. 
 
 Voor wie?
+
 Voor mensen:
 
 * met spanningsklachten of een hoog stressniveau;
@@ -21,6 +22,7 @@ Voor mensen:
 
 
 Waarom? 
+
 De manier waarop het lichaam reageert op stress en hoe makkelijk herstel van opgebouwde spanning plaatsvindt, is persoonlijk. Een analyse van stressmechanismen geeft inzicht in hoe dat bij jou werkt. Aspecten waarnaar gekeken wordt zijn:
 
 * Hoe ontspannen of gespannen ben jij in de basis?
@@ -43,3 +45,11 @@ Er worden verschillende lichaamsfuncties gemeten met hoogwaardige apparatuur van
 Advisering
 
 Direct na de meting worden de belangrijkste inzichten aan je teruggekoppeld en binnen een week ontvang je een rapportage over de analyse met adviezen, afgestemd op jouw aandachtsgebieden en/of doelen. 
+
+PLAATJE
+
+Deze meting is een voorbeeld van lichamelijke gejaagdheid in de basis, waarbij er niet voldoende herstel is van spanningen. Ook wordt duidelijk dat met iets meer rust en regelmaat in de ademhaling  (blauwe lijn) dit het ontspanningsniveau direct positief beïnvloed. Dit is te zien aan een betere hartcoherentie  (rode lijn). De meting geeft heel concrete richtlijnen voor een betere omgang met stress, het verbeteren van ontspanning en opbouwen van energiereserves.   
+
+
+
+
