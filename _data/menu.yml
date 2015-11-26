@@ -20,12 +20,12 @@ level1:
     url: /onze-aanpak
     class: onze-aanpak
     level2:
-      - title: Methoden
-        url: /methoden
-        class: methode
       - title: Proces
         url: /proces
         class: proces
+      - title: Methoden
+        url: /methoden
+        class: methoden
   - title: Voor jou
     url: /voor-jou
     class: voor-jou
