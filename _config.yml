@@ -242,18 +242,6 @@ prose:
         field:
           element: "hidden"
           value: true
-      - name: "permalink"
-        field:
-          element: "text"
-          label: "Permalink"
-          placeholder: "url van pagina"
-          type: "text"
-      - name: "redirect_from"
-        field:
-          element: "multiselect"
-          label: "Redirect_from"
-          placeholder: "vul url in"
-          alterable: "true"
     _posts/team:
       - name: "layout"
         field:
