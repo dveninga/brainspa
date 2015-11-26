@@ -6,14 +6,11 @@ layout: page
 noindex: false
 sitemap: true
 publish: true
-permalink: ""
-redirect_from: 
-  - "null"
 title: Meditatie verandert brein op korte termijn
 ---
 
 
-##  Meditatie kan al binnen acht weken leiden tot structurele veranderingen in het menselijk brein. Dat hebben Amerikaanse wetenschappers aangetoond.
+##Meditatie kan al binnen acht weken leiden tot structurele veranderingen in het menselijk brein. Dat hebben Amerikaanse wetenschappers aangetoond.
 
 Als mensen gedurende acht weken ongeveer 30 minuten per dag mediteren, ontstaat er meer grijze hersenmassa in de hippocampus. Dat is een hersengebied dat wordt geassocieerd met geheugen en leervermogen.
 
