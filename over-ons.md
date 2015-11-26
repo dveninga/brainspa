@@ -9,7 +9,7 @@ published: true
 
 **BrainSpa** is een onafhankelijke organisatie die zich richt op hoog kwalitatieve hulpverlening en persoonlijk maatwerk met als uitgangspunt en expertise; het brein.
 
-Wij zijn een onderneming die flexibel mee ontwikkelt met de tijd en wij voeren vernieuwde technieken snel door in ons aanbod. Naast Analyses en individuele trajecten verzorgen wij Trainingen en Workshops.
+Wij zijn een onderneming die flexibel mee ontwikkelt met de tijd en wij voeren vernieuwde technieken snel door in ons aanbod. Naast Analyses en individuele trajecten verzorgen wij Trainingen en Workshops voor particulieren, bedrijven en proffesionals.
 
 Mensen, kinderen en bedrijven kloppen bij ons aan voor meer inzicht, training/behandel trajecten, groepstrainingen en workshops.
 
