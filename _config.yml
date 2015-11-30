@@ -610,11 +610,69 @@ prose:
       - name: "parent"
         field:
           element: "hidden"
-          value: "workshop"
+          value: "zakelijk"
       - name: "class"
         field:
           element: "hidden"
           value: "workshop"
+      - name: "noindex"
+        field:
+          element: "checkbox"
+          label: "Voorkom dat google pagina indexeert"
+          help: "Als ingeschakeld wordt de pagina niet gevonden in zoekmachines."
+          value: false
+      - name: "sitemap"
+        field:
+          element: "checkbox"
+          label: "Neem pagina op in sitemap (SEO)"
+          value: true
+      - name: "publish"
+        field:
+          element: "checkbox"
+          label: "Publiceer op website"
+          help: "Schakel uit om pagina niet te tonen in de website."
+          value: true
+      - name: "published"
+        field:
+          element: "hidden"
+          value: true
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          placeholder: "url van pagina"
+          type: "text"
+      - name: "redirect_from"
+        field:
+          element: "multiselect"
+          label: "Redirect_from"
+          placeholder: "vul url in"
+          alterable: "true"
+    _posts/analyse:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "banner"
+        field:
+          element: "text"
+          label: "banner"
+      - name: "tags"
+        field:
+          element: "hidden"
+          value: "analyse"
+      - name: "class"
+        field:
+          element: "hidden"
+          value: "analyse"
+      - name: "sitemap"
+        field:
+          element: "hidden"
+          value: "true"
       - name: "noindex"
         field:
           element: "checkbox"
