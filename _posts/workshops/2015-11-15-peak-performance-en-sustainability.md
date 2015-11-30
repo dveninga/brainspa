@@ -30,8 +30,6 @@ Er wordt ingegaan op vragen als:
 
 Behalve een bron aan kennis en ervaring over hoe het brein en stressmechanismen een rol spelen op de werkvloer, worden concrete ‘tips & tricks’ gedeeld die thuis en op de werkvloer ingezet kunnen worden. 
 
-##Prijs
-
 |prijs|€ 350,00|
 |duur|1 dag|
 |aantal deelnemers|geen maximum|

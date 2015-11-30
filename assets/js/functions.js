@@ -16,11 +16,12 @@ $(function() {
         pageTitle = $('h1.pageTitle').html(),
         $navbar = $('.navbar.navbar-static-top'),
         $header = $('header'),
-        $banner = $('.container-fluid.banner, .home header.container-fluid');
+        $banner = $('.container-fluid.banner, .home header.container-fluid'),
+        $workshop = $('body.workshop');
     smoothScroll(1000);
     $banner.addClass('on');
     toTop(mobile);
-    marktable();
+    marktable($workshop);
     datify();
     //mainNav();
     $(window).scroll(function() {
@@ -137,16 +138,22 @@ $(function() {
     }
 });
 
-function marktable() {
-    $contentTable = $('.content table');
-    $contentUl = $('body.lijst .page-content .column2 ul');
+function marktable($workshop) {
+    var $contentTable = $('.content table'),
+        $contentUl = $('body.lijst .page-content .column2 ul');
 
     if ($contentTable.length) {
-        $contentTable.addClass('table table-condensed');
+
+        if ($workshop.length > 0) {
+            $contentTable.addClass('table table-condensed').wrap('<div class="price"></div>');
+        } else {
+            $contentTable.addClass('table table-condensed');
+        }
     }
     if ($contentUl.length) {
         $contentUl.addClass('list-unstyled');
     }
+
 }
 
 function smoothScroll(duration) {

@@ -26,8 +26,6 @@ Verschillende technieken om de hersenen te trainen komen aan bod, ook technieken
     * Biofeedback (o.a. hartritme training, oefening van ademhaling)
     * Mindfulness
 
-##Prijs
-
 |prijs|€ 65,00|
 |duur|halve dag|
 |aantal deelnemers|geen maximum|

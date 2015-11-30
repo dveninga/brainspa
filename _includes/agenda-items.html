@@ -1,4 +1,4 @@
-  <div class="agenda-list row">
+  <div class="agenda-list">
     {% assign curDate = site.time | date: '%s' %}
     {% assign prevCount = 0 %}
     {% assign count = 0 %}
@@ -18,17 +18,23 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-8">
+          <div class="col-md-12">
             <ul class="list-unstyled">
-              <li>{% for date in item.datum %}<i class="fa fa-calendar"></i> <span class="date">{{date}}</span>{% endfor %}</li>
               <li><i class="fa fa-clock-o"></i> {% if item.tijd != null%}{{item.tijd}}{% else %} 09:00 - 17:00 uur{% endif %}{% if item.duur != null %}, {{item.duur}}{%endif%}</li>
               <li><i class="fa fa-map-marker"></i><span class="location">{{item.locatie}}<span></li>
             </ul>
+            <ul class="list-unstyled">
+              {% for date in item.datum %}
+              <li><i class="fa fa-calendar"></i> <span class="date">{{date}}</span></li>
+              {% endfor %}
+            </ul>
           </div>
-          <div class="col-md-4">
+        </div>
+        <div class="row">
+          <div class="col-md-8">
             <a href="#" class="btn btn-primary subscribe" title="{{item.titel}}" data-title="{{item.titel}}" data-date="{% assign countDate = 0 %}{% for date in item.datum %}{% assign countDate = countDate | plus: 1%}{% if countDate > 1 %} + {% endif %}{{date}}{% endfor %}">inschrijven</a>
           </div>
-        </div>      
+        </div>
       </div>
       {% assign prevCount = count %}
       {% assign globalCount = 1 %}

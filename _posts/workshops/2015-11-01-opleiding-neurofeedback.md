@@ -21,8 +21,6 @@ De training is opgebouwd uit 4 dagen een basistraining.
 
 Daarna is het mogelijk om naar eigen interesse in te tekenen voor verdiepende modules.
 
-##Prijs
-
 |prijs|€ 250,00 per dag|
 |duur|4 dagen|
 |aantal deelnemers|max 8 personen|

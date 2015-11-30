@@ -2469,7 +2469,7 @@ output {
   .form-control::-webkit-input-placeholder {
     color: #999; }
   .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
-    background-color: #eeeeee;
+    background-color: #f2f2f2;
     opacity: 1; }
   .form-control[disabled], fieldset[disabled] .form-control {
     cursor: not-allowed; }
@@ -8039,9 +8039,9 @@ p {
     -webkit-transition: all 300ms ease-in-out;
     -moz-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out;
-    border-bottom: 1px solid #b9b9a7;
-    margin-bottom: 15px;
-    padding-bottom: 5px; }
+    background-color: #f2f2f2;
+    margin-bottom: 30px;
+    padding: 30px; }
     #agenda .agenda-list .agenda-item ul {
       padding-left: 0px; }
     #agenda .agenda-list .agenda-item h3 {
@@ -8055,6 +8055,11 @@ p {
       font-size: 14px; }
     #agenda .agenda-list .agenda-item span.date {
       margin-right: 15px; }
+    #agenda .agenda-list .agenda-item .col-md-8 {
+      text-align: right; }
+      @media screen and (max-width: 767px) {
+        #agenda .agenda-list .agenda-item .col-md-8 {
+          padding-top: 30px; } }
 
 .container-fluid.banner {
   height: 200px;
@@ -8559,6 +8564,18 @@ section.wat-wij-doen {
     @media screen and (max-width: 767px) {
       .wie-we-zijn .team .content-wrapper p {
         min-height: 100%; } }
+
+body.workshop section.workshop .content .price {
+  border: 1px solid #ddd;
+  padding: 30px;
+  margin-bottom: 30px; }
+  body.workshop section.workshop .content .price table {
+    margin-bottom: 0px; }
+    body.workshop section.workshop .content .price table tbody tr:first-child td {
+      border: none; }
+body.workshop section.workshop .content .list-unstyled {
+  margin-top: 15px;
+  margin-bottom: 0px; }
 
 form {
   margin-bottom: 30px; }
