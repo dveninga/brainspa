@@ -103,18 +103,18 @@ $(function() {
     if ($shareme.length > 0) {
         $shareme.sharrre({
             share: {
-                twitter: true,
+                twitter: false,
                 facebook: true,
                 linkedin: true,
                 googlePlus: false
             },
-            template: '<div class="box"><ul class="list-inline social"><li>Deel op: </li><li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li><li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li><li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li><li><a href="#" class="googleplus"><i class="fa fa-google-plus"></i></a></li></ul></div>',
+            template: '<div class="box"><ul class="list-inline social"><li>Deel op: </li><li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li><li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li><li><a href="#" class="googleplus"><i class="fa fa-google-plus"></i></a></li></ul></div>',
             enableHover: false,
             enableTracking: false,
             render: function(api, options) {
-                $(api.element).on('click', '.twitter', function() {
-                    api.openPopup('twitter');
-                });
+                // $(api.element).on('click', '.twitter', function() {
+                //     api.openPopup('twitter');
+                // });
                 $(api.element).on('click', '.facebook', function() {
                     api.openPopup('facebook');
                 });

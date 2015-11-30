@@ -43,12 +43,12 @@ level1:
     url: /zakelijk
     class: zakelijk
     level2:
-      - title: Analyse
-        url: /analyse
-        class: analyse
       - title: Preventie
         url: /preventie
         class: preventie
+      - title: Analyse
+        url: /analyse
+        class: analyse
       - title: Trajecten
         url: /trajecten
         class: traject

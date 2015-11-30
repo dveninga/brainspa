@@ -9,7 +9,7 @@
 		<li {% if page.active == submenu.class %}class="active"{% endif %}><a href="{{menu.url}}{{submenu.url}}" title="ga naar {{submenu.title}}">{{submenu.title}}</a></li>
 		<ul class="nav nav-pills nav-stacked">
 		{% for post in site.tags[{{submenu.class}}] %}
-		{% if post.publish != false %}
+		{% if post.publish != false and post.parent == menu.class %}
 		<li {% if page.url == post.url %}class="active"{% endif %}><a href="{{post.url}}" title="ga naar {{post.title}}">{{post.title}}</a></li>{%endif%}{% endfor %}
 		</ul>
 		{% endif %}

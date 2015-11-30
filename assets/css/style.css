@@ -8228,7 +8228,7 @@ section.doelgroepen .flipbox-back, .row.doelgroepen .flipbox-back {
   -o-transform: rotateY(-180deg);
   transform: rotateY(-180deg); }
   section.doelgroepen .flipbox-back h2, .row.doelgroepen .flipbox-back h2 {
-    margin-top: 30px;
+    margin-top: 0px;
     margin-bottom: 30px; }
   section.doelgroepen .flipbox-back .flipbox-text, .row.doelgroepen .flipbox-back .flipbox-text {
     margin-bottom: 30px; }
